@@ -12,18 +12,22 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   {
-    title: 'Brand Strategy',
-    href: '/guide/brand-strategy',
+    title: 'Brand Foundation',
+    href: '/guide/brand-foundation',
     children: [
-      { title: 'Our Story', href: '/guide/brand-strategy#our-story' },
-      { title: 'Mission', href: '/guide/brand-strategy#mission' },
-      { title: 'Vision', href: '/guide/brand-strategy#vision' },
-      { title: 'Values', href: '/guide/brand-strategy#values' },
-      { title: 'Brand Archetype', href: '/guide/brand-strategy#brand-archetype' },
-      { title: 'Target Audience', href: '/guide/brand-strategy#target-audience' },
-      { title: 'Brand Tone', href: '/guide/brand-strategy#brand-tone' },
-      { title: 'Brand Tagline', href: '/guide/brand-strategy#brand-tagline' },
-      { title: 'Messaging Style', href: '/guide/brand-strategy#messaging-style' },
+      { title: 'Our Story', href: '/guide/brand-foundation#our-story' },
+      { title: 'Mission', href: '/guide/brand-foundation#mission' },
+      { title: 'Vision', href: '/guide/brand-foundation#vision' },
+      { title: 'Values', href: '/guide/brand-foundation#values' },
+      { title: 'Brand Personality', href: '/guide/brand-foundation#brand-personality' },
+      { title: 'Tone of Voice', href: '/guide/brand-foundation#tone-of-voice' },
+      { title: 'Competetive Lanscape', href: '/guide/brand-foundation#competitive-landscape' },
+      { title: 'Target Audience', href: '/guide/brand-foundation#target-audience' },
+      { title: 'Brand Positioning Statement', href: '/guide/brand-foundation#brand-positioning-statement' },
+      { title: 'Brand DNA', href: '/guide/brand-foundation#brand-dna' },
+      { title: 'Brand Tagline', href: '/guide/brand-foundation#brand-tagline' },
+      { title: 'Brand Messaging', href: '/guide/brand-foundation#brand-messaging' },
+      { title: 'Brand Strategy', href: '/guide/brand-foundation#brand-strategy' },
     ],
   },
   {
