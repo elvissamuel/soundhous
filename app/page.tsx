@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Home() {
   const cards = [
     {
-      title: "Brand Strategy",
+      title: "Brand Foundation",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna",
-      href: "/guide/brand-strategy"
+      href: "/guide/brand-foundation"
     },
     {
       title: "Logo Rules",
@@ -94,7 +94,7 @@ export default function Home() {
             <div className="flex flex-col gap-2 sm:gap-3">
               <span className="text-xs sm:text-sm text-white font-normal">Quick Links:</span>
               <div className="flex flex-wrap gap-4 sm:gap-6">
-                <Link href="/guide/brand-strategy" className="text-sm sm:text-base text-white underline font-normal hover:no-underline decoration-1">Brand Strategy</Link>
+                <Link href="/guide/brand-foundation" className="text-sm sm:text-base text-white underline font-normal hover:no-underline decoration-1">Brand Foundation</Link>
                 <Link href="/guide/logo-rules" className="text-sm sm:text-base text-white underline font-normal hover:no-underline decoration-1">Logo Rules</Link>
                 <Link href="/guide/colours" className="text-sm sm:text-base text-white underline font-normal hover:no-underline decoration-1">Colours</Link>
               </div>
