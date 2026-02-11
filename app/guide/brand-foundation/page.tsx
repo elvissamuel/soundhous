@@ -583,9 +583,11 @@ export default function BrandStrategyPage() {
       </section>
 
       {/* Target Audience Section */}
-      <section id="target-audience" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
-      <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-16">1.9 Brand DNA</h2>
+      <section id="target-audience" className="w-full py-8 sm:py-12 md:py-16 scroll-mt-24">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 mb-4 sm:mb-16">
+          <h2 className="text-2xl font-bold text-gray-800 w-full">1.9 Brand DNA</h2>
+        </div>
+        <div className="w-full">
           <Image src="/sd-mix.png" alt="Tone of Voice" width={1000} height={1000} className="w-full h-auto" />
         </div>
       </section>
@@ -863,9 +865,11 @@ export default function BrandStrategyPage() {
       </section>
 
       {/* Brand strategy section */}
-      <section id="target-audience" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
-      <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-16">1.12. Brand Strategy</h2>
+      <section id="target-audience" className="w-full scroll-mt-24">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 md:px-8 lg:px-12 mb-4 sm:mb-16">
+          <h2 className="text-2xl font-bold text-gray-800 w-full">1.12. Brand Strategy</h2>
+        </div>
+        <div className="w-full">
           <Image src="/brand-strategy.png" alt="Tone of Voice" width={1000} height={1000} className="w-full h-auto" />
         </div>
       </section>
