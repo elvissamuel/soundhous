@@ -71,7 +71,7 @@ export default function PhotographyPage() {
       <section id='product-renders' className="px-6 md:px-12 py-20 bg-white">
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
-          <h2 className="text-3xl font-bold mb-12">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
             7.2&nbsp;&nbsp;Product Renders
           </h2>
 
@@ -79,7 +79,7 @@ export default function PhotographyPage() {
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-10 items-stretch">
             {/* LEFT — TALL BORDERED TEXT */}
             <div className="border border-gray-300 flex items-center justify-center p-10">
-              <p className="text-xl font-semibold leading-snug tracking-tight max-w-xs">
+              <p className="text-xl font-semibold leading-snug text-black tracking-tight max-w-xs">
                 Renders must emphasize the <br />
                 <span className="font-bold">"Industrial Art"</span> <br />
                 of the hardware.
@@ -153,7 +153,7 @@ export default function PhotographyPage() {
       >
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
-          <h2 className="text-3xl font-bold mb-4">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
             7.3&nbsp;&nbsp;Lifestyle Photography
           </h2>
 
@@ -268,7 +268,7 @@ export default function PhotographyPage() {
         </div>
       </section>
 
-      <section className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
+      <section id='staff-photography' className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <Image
             src="/staff-photography.png"
@@ -286,7 +286,7 @@ export default function PhotographyPage() {
       >
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
-          <h2 className="text-3xl font-bold mb-10">
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
             7.5. Photography Don'ts
           </h2>
 
