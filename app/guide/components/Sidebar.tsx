@@ -12,23 +12,35 @@ interface MenuItem {
 
 const menuItems: MenuItem[] = [
   {
+    title: 'Brand Guideline',
+    href: '/guide/brand-guideline',
+    children: [
+      { title: 'Brand guideline', href: '/guide/brand-guideline' },
+      { title: 'About Soundhous', href: '/guide/brand-guideline#about-soundhous' },
+    ]
+      
+    
+  },
+
+  {
     title: 'Brand Foundation',
     href: '/guide/brand-foundation',
     children: [
-      { title: 'Our Story', href: '/guide/brand-foundation#our-story' },
-      { title: 'Mission', href: '/guide/brand-foundation#mission' },
-      { title: 'Vision', href: '/guide/brand-foundation#vision' },
-      { title: 'Values', href: '/guide/brand-foundation#values' },
-      { title: 'Brand Personality', href: '/guide/brand-foundation#brand-personality' },
+      { title: 'Brand guideline', href: '/guide/brand-foundation' },
+      { title: 'Brand Basics', href: '/guide/brand-foundation#brand-basics' },
+      { title: 'Brand Philosophy', href: '/guide/brand-foundation#brand-philosophy' },
+      { title: 'Brand archetype', href: '/guide/brand-foundation#brand-archetype' },
       { title: 'Tone of Voice', href: '/guide/brand-foundation#tone-of-voice' },
-      { title: 'Competetive Lanscape', href: '/guide/brand-foundation#competitive-landscape' },
-      { title: 'Target Audience', href: '/guide/brand-foundation#target-audience' },
-      { title: 'Brand Positioning Statement', href: '/guide/brand-foundation#brand-positioning-statement' },
+      { title: 'Competitive landscape', href: '/guide/brand-foundation#competitive-landscape' },
+      { title: 'Brand positioning statement', href: '/guide/brand-foundation#brand-positioning' },
       { title: 'Brand DNA', href: '/guide/brand-foundation#brand-dna' },
-      { title: 'Brand Tagline', href: '/guide/brand-foundation#brand-tagline' },
-      { title: 'Brand Messaging', href: '/guide/brand-foundation#brand-messaging' },
-      { title: 'Brand Strategy', href: '/guide/brand-foundation#brand-strategy' },
-    ],
+      { title: 'Brand tagline', href: '/guide/brand-foundation#brand-tagline' },
+      { title: 'Brand messaging', href: '/guide/brand-foundation#brand-messaging' },
+      { title: 'Brand strategy', href: '/guide/brand-foundation#brand-strategy' },
+
+  ]
+      
+    
   },
   {
     title: 'Brand Blueprint',
