@@ -37,7 +37,7 @@ export default function GlobalApplicationPage() {
                   alt="South Africa flag"
                   width={240}
                   height={160}
-                  className="w-40 h-auto mb-2"
+                  className="w-20 h-auto mb-2"
                 />
                 <p className="text-sm text-gray-800">
                   <span className="block">Example:</span>
@@ -119,7 +119,7 @@ export default function GlobalApplicationPage() {
                   alt="Canada flag"
                   width={240}
                   height={160}
-                  className="w-40 h-auto mb-2"
+                  className="w-20 h-auto mb-2"
                 />
                 <p className="text-sm text-gray-800">
                   <span className="block">Example:</span>
@@ -188,7 +188,7 @@ export default function GlobalApplicationPage() {
                   alt="United Arab Emirates flag"
                   width={240}
                   height={160}
-                  className="w-40 h-auto mb-2"
+                  className="w-20 h-auto mb-2"
                 />
                 <p className="text-sm text-gray-800">
                   <span className="block">Example:</span>

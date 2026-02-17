@@ -31,43 +31,47 @@ const menuItems: MenuItem[] = [
     ],
   },
   {
-    title: 'Logo Rules',
-    href: '/guide/logo-rules',
+    title: 'Brand Blueprint',
+    href: '/guide/brand-blueprint',
     children: [
-      { title: 'Logo Variations', href: '/guide/logo-rules#logo-variations' },
-      { title: 'Logo Clear Space', href: '/guide/logo-rules#logo-clear-space' },
-      { title: 'Logo in bounding shapes', href: '/guide/logo-rules#logo-bounding-shapes' },
-      { title: 'Layout grid/composition', href: '/guide/logo-rules#layout-grid' },
-      { title: 'Minimum Size', href: '/guide/logo-rules#minimum-size' },
-      { title: 'Brand Architecture', href: '/guide/logo-rules#brand-architecture' },
-      { title: 'Co-Branding', href: '/guide/logo-rules#co-branding' },
-      { title: 'Logo misuse', href: '/guide/logo-rules#logo-misuse' },
+      { title: 'Logo Concept', href: '/guide/brand-blueprint#logo-concept' },
+      { title: 'Logo Variation', href: '/guide/brand-blueprint#logo-variation' },
+      { title: 'Logo lockups', href: '/guide/brand-blueprint#logo-lockups' },
+      { title: 'Logo symbols', href: '/guide/brand-blueprint#logo-symbols' },
+      { title: 'Logo Rules', href: '/guide/brand-blueprint#logo-rules' },
+      { title: 'Logo clear space', href: '/guide/brand-blueprint#logo-clear-space' },
+      { title: 'Layout Grid/Composition', href: '/guide/brand-blueprint#layout-grid' },
+      { title: 'Minimum Size and Format', href: '/guide/brand-blueprint#minimum-size-format' },
+      { title: 'Logo Misuse', href: '/guide/brand-blueprint#logo-misuse' },
+      { title: 'Co-branding', href: '/guide/brand-blueprint#co-branding' },
+
     ],
   },
+
   {
-    title: 'Colours',
-    href: '/guide/colours',
+    title: 'Symphony',
+    href: '/guide/symphony',
     children: [
-      { title: 'Primary Colours', href: '/guide/colours#primary-colours' },
-      { title: 'Secondary Colours', href: '/guide/colours#secondary-colours' },
-      { title: 'Extended colour palette', href: '/guide/colours#extended-palette' },
-      { title: 'Logo colours', href: '/guide/colours#logo-colours' },
-      { title: 'Sub-brand Colours', href: '/guide/colours#sub-brand-colours' },
-      { title: 'Colours contrast checker', href: '/guide/colours#contrast-checker' },
-      { title: 'Colour Misuse', href: '/guide/colours#colour-misuse' },
+      { title: 'Brand Visual Language', href: '/guide/symphony#brand-visual' },
+      { title: 'Brand Assets', href: '/guide/symphony#brand-assets' },
+      { title: 'Illustration Style', href: '/guide/symphony#illustration-style' },
+      { title: 'Color System', href: '/guide/symphony#color-system' },
+      { title: 'Primary Colours', href: '/guide/symphony#primary-colours' },
+      { title: 'Secondary & Extended Palette', href: '/guide/symphony#secondary-extended-palette' },
+      { title: 'Brand Architecture', href: '/guide/symphony#brand-architecture' },
+      
+      
     ],
   },
+  
   {
     title: 'Typography',
     href: '/guide/typography',
     children: [
       { title: 'Headings', href: '/guide/typography#headings' },
-      { title: 'Subheadings/body', href: '/guide/typography#subheadings' },
-      { title: 'Type hierarchy', href: '/guide/typography#type-hierarchy' },
-      { title: 'Alternate typeface', href: '/guide/typography#alternate-typeface' },
-      { title: 'Tracking/leading', href: '/guide/typography#tracking-leading' },
-      { title: 'Alignment/Casing', href: '/guide/typography#alignment-casing' },
-      { title: 'Typography Misuse', href: '/guide/typography#typography-misuse' },
+      { title: 'Primary Typeface', href: '/guide/typography#primary-typeface' },
+      { title: 'Alternate Typeface', href: '/guide/typography#alternate-typeface' },
+      
     ],
   },
   {
@@ -76,10 +80,13 @@ const menuItems: MenuItem[] = [
     children: [
       { title: 'Sensory Guide Style', href: '/guide/sensory-guide#sensory-guide-style' },
       { title: 'Design Philosophy', href: '/guide/sensory-guide#design-philosophy' },
-      { title: 'Sensory Exploration', href: '/guide/sensory-guide#sensory-exploration' },
       { title: 'Patterns', href: '/guide/sensory-guide#patterns' },
       { title: 'Textures', href: '/guide/sensory-guide#textures' },
       { title: 'Materials', href: '/guide/sensory-guide#materials' },
+      { title: 'Sensory Exploration', href: '/guide/sensory-guide#sensory-exploration' },
+      { title: 'Airy Light', href: '/guide/sensory-guide#airy-light' },
+      { title: 'Industrial Nomad', href: '/guide/sensory-guide#industrial-nomad' },
+      { title: 'Luxury Black', href: '/guide/sensory-guide#luxury-black' },
     ],
   },
   {
