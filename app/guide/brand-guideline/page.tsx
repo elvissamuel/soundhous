@@ -8,7 +8,7 @@ export default function BrandStrategyPage() {
       <section id="brand-guideline" className="scroll-mt-24">
               <div className="max-w-full mx-auto">
                 <Image
-                  src="/brand-guidelineS.png"
+                  src="/soundhous-images/brand-guideline.jpg"
                   alt="Brand Guideline"
                   width={1000}
                   height={1000}
@@ -29,22 +29,21 @@ export default function BrandStrategyPage() {
               </div>
             </section>
 
-      {/* Divider */}
-      <section className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
-  <div className="max-w-6xl mx-auto space-y-12">
+     <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
+  <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
 
     {/* Title */}
-    <h2 className="text-2xl md:text-4xl font-bold text-black">
+    <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
       About Soundhous
     </h2>
 
     {/* 3 Column Layout */}
-    <div className="grid grid-cols-1 md:grid-cols-3 gap-12 items-start text-left">
+    <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 md:gap-12 items-start text-left">
 
-      {/* LEFT COLUMN */}
-      <div className="space-y-2 text-gray-700">
-        <p className="font-semibold text-black">1.) Our brand is</p>
-        <ul className="list-none space-y-1">
+      {/* LEFT COLUMN - Pushed down with margin-top */}
+      <div className="space-y-2 text-gray-700 md:mt-[180px] lg:mt-[175px]">
+        <p className="text-black text-sm sm:text-base">1.) Our brand is</p>
+        <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
           <li>Creative</li>
           <li>Audacious</li>
           <li>Customer-centric</li>
@@ -54,10 +53,10 @@ export default function BrandStrategyPage() {
       </div>
 
       {/* MIDDLE COLUMN */}
-      <div className="space-y-8 text-gray-700">
+      <div className="space-y-6 sm:space-y-8 text-gray-700">
         <div className="space-y-2">
-          <p className="font-semibold text-black">2.) Our spaces are</p>
-          <ul className="list-none space-y-1">
+          <p className="text-black text-sm sm:text-base">2.) Our spaces are</p>
+          <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
             <li>Zen-Minimalist</li>
             <li>Magical</li>
             <li>Distinctive</li>
@@ -66,8 +65,8 @@ export default function BrandStrategyPage() {
         </div>
 
         <div className="space-y-2">
-          <p className="font-semibold text-black">3.) Our people are</p>
-          <ul className="list-none space-y-1">
+          <p className="text-black text-sm sm:text-base">3.) Our people are</p>
+          <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
             <li>Knowledgeable</li>
             <li>Experts</li>
             <li>Professional</li>
@@ -77,10 +76,10 @@ export default function BrandStrategyPage() {
       </div>
 
       {/* RIGHT COLUMN */}
-      <div className="space-y-8 text-gray-700">
+      <div className="space-y-6 sm:space-y-8 text-gray-700">
         <div className="space-y-2">
-          <p className="font-semibold text-black">4.) Our products are</p>
-          <ul className="list-none space-y-1">
+          <p className="text-black text-sm sm:text-base">4.) Our products are</p>
+          <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
             <li>Exceptional Quality</li>
             <li>Innovative</li>
             <li>Excellent</li>
@@ -89,8 +88,8 @@ export default function BrandStrategyPage() {
         </div>
 
         <div className="space-y-2">
-          <p className="font-semibold text-black">5.) We are NOT</p>
-          <ul className="list-none space-y-1">
+          <p className="text-black text-sm sm:text-base">5.) We are NOT</p>
+          <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
             <li>Bright</li>
             <li>Witty</li>
             <li>Playful</li>

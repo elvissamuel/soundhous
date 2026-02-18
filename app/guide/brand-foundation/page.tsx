@@ -1,14 +1,15 @@
 import Image from "next/image";
+import Link from "next/link";
+import { QuoteMark } from "../components/Quotemark";
 
 export default function BrandFoundationPage() {
   return (
     <div className="bg-white">
-
       {/* Brand Foundation */}
       <section id="brand-foundation" className="scroll-mt-24">
         <div className="max-w-full mx-auto">
           <Image
-            src="/brand-foundation.png"
+            src="/soundhous-images/brand-foundation01.jpg"
             alt="Brand Foundation"
             width={1000}
             height={1000}
@@ -21,7 +22,7 @@ export default function BrandFoundationPage() {
       <section id="brand-basics" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-6xl mx-auto space-y-12">
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-normal mr-2">1.1.</span> Brand Basics
+            <span className="font-light">1.1</span>&nbsp;&nbsp;Brand Basics
           </h2>
 
           <div className="space-y-4">
@@ -60,7 +61,7 @@ export default function BrandFoundationPage() {
       <section id="brand-philosophy" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            1.2&nbsp;&nbsp;Brand Philosophy
+            <span className="font-light">1.2</span>&nbsp;&nbsp;Brand Philosophy
           </h2>
           <Image
             src="/alchemist.png"
@@ -73,26 +74,26 @@ export default function BrandFoundationPage() {
       </section>
 
       {/* The Alchemist-King */}
-      <section className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
-        <div className="max-w-6xl mx-auto space-y-12">
-          <h2 className="text-2xl md:text-2xl font-bold text-black">
+      <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
+        <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
+          <h2 className="text-lg sm:text-xl md:text-2xl font-bold text-black">
             Mindset
           </h2>
-          <h2 className="text-2xl md:text-5xl font-bold text-black">
+          <h2 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-black">
             The Alchemist-King
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-            <div className="space-y-4 text-gray-700">
-              <ul className="list-none space-y-2">
-                <li className="font-semibold">Creative</li>
-                <li className="font-semibold">Analytical</li>
-                <li className="font-semibold">Authoritative</li>
-                <li className="font-semibold">Cosmopolitan</li>
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-start">
+            <div className="space-y-3 sm:space-y-4 text-sm sm:text-base md:text-lg lg:text-xl xl:text-2xl text-gray-500">
+              <ul className="space-y-2 list-disc list-inside">
+                <li>Creative</li>
+                <li>Analytical</li>
+                <li>Authoritative</li>
+                <li>Cosmopolitan</li>
               </ul>
             </div>
 
-            <div className="border-l border-gray-300 pl-8">
+            <div className="border-l-0 md:border-l border-gray-300 md:pl-6 lg:pl-8">
               <Image
                 src="/archetype-combination.png"
                 alt="Archetype Combination"
@@ -109,7 +110,7 @@ export default function BrandFoundationPage() {
       <section id="brand-archetype" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            1.2.1&nbsp;&nbsp;Brand Archetype
+            <span className="font-light">1.2.1</span>&nbsp;&nbsp;Brand Archetype
           </h2>
           <Image
             src="/brand-archetype.png"
@@ -125,7 +126,7 @@ export default function BrandFoundationPage() {
       <section id="tone-of-voice" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            1.3&nbsp;&nbsp;Tone of voice
+            <span className="font-light">1.3</span>&nbsp;&nbsp;Tone of voice
           </h2>
           <Image
             src="/elegant-authority.png"
@@ -138,25 +139,27 @@ export default function BrandFoundationPage() {
       </section>
 
       {/* Inspired by Core Brand Principles */}
-      <section className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
-        <div className="max-w-6xl mx-auto space-y-12">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+      <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
+        <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
+          <div className="text-center md:text-right">
+            <p className="text-lg sm:text-3xl md:text-4xl font-bold text-gray-500">
+              The Alchemist-King speaks with<br />
+              <span className="font-light text-2xl sm:text-4xl md:text-5xl lg:text-6xl">E l e g a n t A u t h o r i t y</span>
+            </p>
+          </div>
+
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-start">
             <div>
-              <p className="text-2xl font-bold text-black">
+              <p className="text-xl sm:text-2xl font-bold text-black">
                 Inspired by our<br />Core Brand<br />Principles
-              </p>
-            </div>
-            <div className="text-right">
-              <p className="text-2xl font-bold text-black">
-                The Alchemist-King speaks with<br />Elegant Authority
               </p>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-left text-gray-700">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 text-left text-gray-700">
             <div className="space-y-2">
-              <p className="font-semibold text-black">We are...</p>
-              <ul className="list-none space-y-1">
+              <p className="font-light text-black text-base sm:text-lg md:text-xl">We are...</p>
+              <ul className="list-none text-base sm:text-lg md:text-xl font-bold text-black space-y-1">
                 <li>Confident</li>
                 <li>Knowledgeable</li>
                 <li>Guiding</li>
@@ -165,8 +168,8 @@ export default function BrandFoundationPage() {
             </div>
 
             <div className="space-y-2">
-              <p className="font-semibold text-black">We avoid being...</p>
-              <ul className="list-none space-y-1">
+              <p className="font-light text-black text-base sm:text-lg md:text-xl">We avoid being...</p>
+              <ul className="list-none text-base sm:text-lg md:text-xl font-bold text-black space-y-1">
                 <li>Arrogant</li>
                 <li>Pedantic</li>
                 <li>Matter-of-fact</li>
@@ -175,8 +178,8 @@ export default function BrandFoundationPage() {
             </div>
 
             <div className="space-y-2">
-              <p className="font-semibold text-black">What makes us different...</p>
-              <ul className="list-none space-y-1">
+              <p className="font-light text-black text-base sm:text-lg md:text-xl">What makes us different...</p>
+              <ul className="list-none text-base sm:text-lg md:text-xl font-bold text-black space-y-1">
                 <li>Creativity</li>
                 <li>Boldness</li>
                 <li>Expertise</li>
@@ -205,7 +208,7 @@ export default function BrandFoundationPage() {
               <h2 className="text-2xl md:text-3xl font-bold text-black">
                 Elegant Authority
               </h2>
-              <p>
+              <p className="text-lg font-light text-gray-700">
                 A creatively cosmopolitan brand that embodies strength and elegance,
                 combining rational authority with subtle sophistication; serious, elite,
                 and fiercely perceptive, with minimalist boldness.
@@ -245,7 +248,7 @@ export default function BrandFoundationPage() {
             Brand Personality at a Glance
           </h2>
           <div className="mb-6 sm:mb-8">
-            <h3 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-900">The Alchemist-King</h3>
+            <h3 className="text-xl sm:text-2xl md:text-6xl font-light text-gray-500">The Alchemist-King</h3>
             <p className="text-base sm:text-lg text-gray-600 mt-1">Elegant Authority</p>
           </div>
 
@@ -291,7 +294,7 @@ export default function BrandFoundationPage() {
       {/* Competitive Landscape */}
       <section id="competitive-landscape" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6">1.4&nbsp;&nbsp;Competitive Landscape</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.4</span>&nbsp;&nbsp;Competitive Landscape</h2>
           <Image
             src="/shd-1.png"
             alt="Competitive Landscape"
@@ -305,7 +308,7 @@ export default function BrandFoundationPage() {
       {/* Target Audience */}
       <section id="target-audience" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6">1.5&nbsp;&nbsp;Target Audience</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5</span>&nbsp;&nbsp;Target Audience</h2>
           <Image
             src="/target-audience-2.png"
             alt="Target Audience"
@@ -317,15 +320,18 @@ export default function BrandFoundationPage() {
       </section>
 
       {/* Brand Positioning Statement */}
-      <section id="brand-positioning" className="w-full bg-white px-6 md:px-12 py-16 md:py-24 scroll-mt-24">
-        <div className="max-w-4xl mx-auto space-y-8">
-          <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-normal mr-2">1.6.&nbsp;&nbsp;</span> Brand Positioning Statement
+      <section id="brand-positioning" className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24 scroll-mt-24">
+        <div className="max-w-4xl mx-auto space-y-6 sm:space-y-8">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
+            <span className="font-light">1.6.&nbsp;&nbsp;</span> Brand Positioning Statement
           </h2>
-          <p className="text-gray-700 leading-relaxed text-lg">
-            We are premium audio retail purveyors for the discerning who desire immersive experiences
-            because they want to transform how they hear, feel and connect with sounds. Unlike other
-            premium audio retail purveyors, we use the <span className="font-semibold text-black">Soundhous Mix™</span>.
+          <p className="text-gray-500 font-light leading-relaxed text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
+            We are premium audio retail purveyors{" "}
+            for the discerning who desire immersive{" "}
+            experiences because they want to transform{" "}
+            how they hear, feel and connect with{" "}
+            sounds. Unlike other premium audio retail{" "}
+            purveyors, we use the <span className="font-semibold text-black">Soundhous Mix™</span>.
           </p>
         </div>
       </section>
@@ -334,7 +340,7 @@ export default function BrandFoundationPage() {
       <section id="brand-dna" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            1.7&nbsp;&nbsp;Brand DNA
+            <span className="font-light">1.7</span>&nbsp;&nbsp;Brand DNA
           </h2>
           <Image
             src="/soundhous-mix.png"
@@ -349,134 +355,143 @@ export default function BrandFoundationPage() {
       {/* TEE Section */}
       <section id="tee" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <div className="relative flex items-center justify-center">
-            <div className="absolute left-0 sm:left-8 md:left-64 text-gray-600 text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-bold leading-none">
-              &ldquo;
-            </div>
-            <h1 className="text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] xl:text-[12rem] font-extrabold text-gray-900 leading-none tracking-tight">
-              TEE
-            </h1>
-            <div className="absolute right-0 sm:right-8 md:right-64 text-gray-400 text-7xl sm:text-8xl md:text-9xl lg:text-[10rem] font-bold leading-none opacity-40">
-              &rdquo;
-            </div>
-          </div>
-
-          <p className="text-sm sm:text-base md:text-xl text-gray-700 text-center">
-            TEE IS THE SOUNDHOUS MIX
-          </p>
-
-          <div className="mb-6 text-center">
-            <p className="text-sm sm:text-base md:text-lg text-gray-700">
-              It is our own unique proprietary in-house system that differentiates us.
-            </p>
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-              It is our proprietary business model. Our way of doing things.
-            </p>
-            <p className="text-sm sm:text-base md:text-lg text-gray-700 leading-relaxed">
-              It is our secret source. Our DNA. All new joiners must be made aware
-            </p>
-          </div>
-
-          <div className="text-center mb-10 sm:mb-12">
-            <p className="text-sm sm:text-base md:text-lg text-gray-700">
-              SOUNDHOUS BRAND DNA = <span className="underline decoration-2">T</span>ECHNOLOGY + <span className="underline decoration-2">E</span>XPERIENCE + <span className="underline decoration-2">E</span>XPERTISE
-            </p>
-          </div>
+          <Image
+            src="/TEE-soundhous.png"
+            alt="TEE"
+            width={1000}
+            height={1000}
+            className="w-full h-auto mb-6"
+          />
         </div>
       </section>
 
       {/* Brand Tagline */}
-      <section id="brand-tagline" className="w-full bg-white px-6 md:px-12 py-16 md:py-24 scroll-mt-24">
-        <div className="max-w-6xl mx-auto space-y-12">
-          <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-normal mr-2">1.8.</span> Brand Tagline
+      <section id="brand-tagline" className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24 scroll-mt-24">
+        <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
+            <span className="font-light">1.8.</span> Brand Tagline
           </h2>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-            <p className="text-gray-700 leading-relaxed max-w-md">
-              Our tagline is a powerful tool that helps people recognise us.
-              To keep it effective, follow these simple rules:
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
+            <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl font-light leading-relaxed">
+              Our tagline is a powerful 
+               tool that helps people
+                recognise us. To keep it 
+                 effective, follow these 
+                  simple rules:
             </p>
 
-            <div className="relative flex justify-start lg:justify-end">
-              <div className="relative">
-                <span className="absolute -left-6 md:-left-10 -top-6 text-gray-400 text-6xl md:text-8xl font-bold">
-                  &ldquo;
-                </span>
-                <div className="text-left lg:text-right">
-                  <p className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-tight tracking-tight">
+            <div className="relative flex justify-center items-center py-8 md:py-0">
+              <div className="relative inline-block">
+                {/* LEFT QUOTE */}
+                <QuoteMark className="absolute -left-8 sm:-left-10 md:-left-12 lg:-left-16 -top-8 sm:-top-10 md:-top-12 lg:-top-14 w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 text-gray-600 opacity-70" />
+
+                {/* TEXT - Centered */}
+                <div className="text-center px-4 sm:px-6">
+                  <p className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal leading-tight tracking-tight">
                     MAKE GOOD
                   </p>
-                  <p className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-bold leading-tight tracking-tight">
+                  <p className="text-black text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-normal leading-tight tracking-tight">
                     SOUND BETTER
                   </p>
                 </div>
-                <span className="absolute -right-6 md:-right-10 bottom-0 text-gray-400 text-6xl md:text-8xl font-bold">
-                  &rdquo;
-                </span>
+
+                {/* RIGHT QUOTE - Pushed right and down */}
+                <QuoteMark className="absolute -right-8 sm:-right-10 md:-right-12 lg:-right-16 xl:-right-20 bottom-[-15px] sm:bottom-[-20px] md:bottom-[-25px] lg:bottom-[-30px] w-12 sm:w-14 md:w-16 lg:w-20 xl:w-24 text-gray-600 opacity-70 rotate-180" />
               </div>
             </div>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-            <ul className="space-y-4 text-gray-700 leading-relaxed">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8 md:gap-10">
+            <ul className="space-y-3 sm:space-y-4 text-gray-900 text-sm sm:text-base leading-relaxed">
               <li>• Only use the tagline when it really adds value. If it's everywhere, people will start to ignore it.</li>
               <li>• Do not change the words, the order, or the punctuation. It must stay exactly as it was designed.</li>
               <li>• Use CAPITAL LETTERS. No need to end it with a period (full stop).</li>
             </ul>
-            <ul className="space-y-4 text-gray-700 leading-relaxed">
+            <ul className="space-y-3 sm:space-y-4 text-gray-900 text-sm sm:text-base leading-relaxed">
               <li>• Ensure it fits naturally into the grammar of your sentence. Use only black and white. No other colours are allowed.</li>
               <li>• If the letter "M" in the tagline is shorter than 3mm, it is too small to read and shouldn't be used.</li>
             </ul>
-            <ul className="space-y-4 text-gray-700 leading-relaxed">
+            <ul className="space-y-3 sm:space-y-4 text-gray-900 text-sm sm:text-base leading-relaxed lg:mt-12">
               <li>• Always leave a "clear zone" around the tagline. This empty space should be at least as large as the tagline itself on all sides to make sure it stands out.</li>
             </ul>
+          </div>
+
+          {/* Horizontal Divider Section */}
+          <div className="border-t border-gray-300 pt-8 sm:pt-10 md:pt-12 mt-8 sm:mt-10 md:mt-12">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 items-center">
+              {/* LEFT - Image */}
+              <div className="flex justify-start">
+                <Image
+                  src="/tagline-graphics.png"
+                  alt="Tagline graphic representation"
+                  width={200}
+                  height={100}
+                  className="w-32 sm:w-40 md:w-48 h-auto object-contain"
+                />
+              </div>
+
+              {/* MIDDLE - Text */}
+              <div className="text-gray-900 text-sm sm:text-sm space-y-2 leading-relaxed">
+                We have a specialised version of our tagline designated for graphical representation, for example on printed materials.
+              </div>
+
+              {/* RIGHT - Link */}
+              <div className="text-gray-900 text-sm sm:text-sm flex flex-col items-start space-y-1">
+                <span className="text-gray-900">See section</span>
+                <Link href="#logo-blueprint" className="text-blue-600 hover:text-blue-800 underline font-medium">
+                  Logo Blueprint Rules/Co-Branding
+                </Link>
+                <span className="text-gray-900">for more information</span>
+              </div>
+            </div>
           </div>
         </div>
       </section>
 
       {/* Brand Messaging */}
-      <section id="brand-messaging" className="px-6 md:px-12 py-16 scroll-mt-24">
-        <div className="max-w-6xl mx-auto space-y-12">
-          <h2 className="text-2xl md:text-4xl font-bold text-gray-900">
-            <span className="font-normal mr-2">1.9.</span> Brand Messaging
+      <section id="brand-messaging" className="px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 scroll-mt-24">
+        <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
+          <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">
+            <span className="font-light">1.9.</span> Brand Messaging
           </h2>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-12 text-gray-800">
-            <div className="space-y-6">
-              <p>
+          <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 text-gray-800">
+            <div className="space-y-4 sm:space-y-6">
+              <p className="text-base sm:text-lg md:text-xl font-light">
                 Our name is <span className="font-semibold">Soundhous®</span>.
                 Soundhous is a proper noun. Always capitalise the first letter;
                 never write our brand name in lowercase.
               </p>
-              <div>
-                <h3 className="font-bold text-black mb-2">The First Mention</h3>
-                <p>
-                  The very first time you write our name in an official document
-                  (like a press release or company profile), use this full title:
-                </p>
-                <p className="italic text-gray-700 mt-2">
-                  "Soundhous, a CED Africa business."
-                </p>
-                <p className="mt-2">
-                  After you have used that full title once, you can use "Soundhous"
-                  for the rest of the text.
-                </p>
-              </div>
-            </div>
 
-            <div className="space-y-6">
               <div>
-                <h3 className="font-bold text-black mb-2">House Rules</h3>
-                <p>
+                <h3 className="font-bold text-black mb-2 text-base sm:text-lg">House Rules</h3>
+                <p className="text-sm sm:text-base">
                   To show that we are a supportive partner to our customers,
                   we use a friendly and personal style of writing.
                   All messaging should follow UK Grammar and Spelling.
                 </p>
               </div>
+            </div>
+
+            <div className="space-y-4 sm:space-y-6 lg:mt-20">
               <div>
-                <h3 className="font-bold text-black mb-2">Be a Team</h3>
-                <p>
+                <h3 className="font-bold text-black mb-2 text-base sm:text-lg">The First Mention:</h3>
+                <p className="text-sm sm:text-base">
+                  The very first time you write our name in an official document
+                  (like a press release or company profile), use this full title:
+                </p>
+                <p className="text-gray-700 mt-2 text-sm sm:text-base">
+                  "Soundhous, a CED Africa business."
+                </p>
+                <p className="mt-2 text-sm sm:text-base">
+                  After you have used that full title once, you can use "Soundhous"
+                  for the rest of the text.
+                </p>
+              </div>
+              <div>
+                <h3 className="font-bold text-black mb-2 text-base sm:text-lg">Be a Team:</h3>
+                <p className="text-sm sm:text-base">
                   After the first mention of the full name, use words like
                   "we," "our," and "us" when talking about the company and our people.
                   This makes us sound like a team of real people.
@@ -484,26 +499,26 @@ export default function BrandFoundationPage() {
               </div>
             </div>
 
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6 lg:mt-20">
               <div>
-                <h3 className="font-bold text-black mb-2">The Single Entity Exception</h3>
-                <p>
+                <h3 className="font-bold text-black mb-2 text-base sm:text-lg">The Single Entity Exception:</h3>
+                <p className="text-sm sm:text-base">
                   If you are talking about the company as a single official organisation,
                   use words like "it" or "its."
                 </p>
               </div>
               <div>
-                <h3 className="font-bold text-black mb-2">Examples</h3>
-                <div className="space-y-4">
+                <h3 className="font-bold text-black mb-2 text-base sm:text-lg">Examples</h3>
+                <div className="space-y-3 sm:space-y-4">
                   <div>
-                    <p className="font-semibold">Personal (Plural):</p>
-                    <p className="italic text-gray-700">
+                    <p className="font-semibold text-sm sm:text-base">Personal (Plural):</p>
+                    <p className="italic text-gray-700 text-sm sm:text-base">
                       "At Soundhous, we are excited to announce our latest product launch."
                     </p>
                   </div>
                   <div>
-                    <p className="font-semibold">Official (Singular):</p>
-                    <p className="italic text-gray-700">
+                    <p className="font-semibold text-sm sm:text-base">Official (Singular):</p>
+                    <p className="italic text-gray-700 text-sm sm:text-base">
                       "Soundhous is a leader in its field."
                     </p>
                   </div>
@@ -511,8 +526,6 @@ export default function BrandFoundationPage() {
               </div>
             </div>
           </div>
-
-          <div className="border-t border-gray-200 mt-12"></div>
         </div>
       </section>
 
@@ -520,7 +533,7 @@ export default function BrandFoundationPage() {
       <section id="brand-strategy" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            1.10&nbsp;&nbsp;Brand Strategy
+            <span className="font-light">1.10</span>&nbsp;&nbsp;Brand Strategy
           </h2>
           <Image
             src="/brand-strategy-2.png"
@@ -541,17 +554,18 @@ export default function BrandFoundationPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
             <div className="space-y-6">
-              <p className="font-semibold">Our Framework is divided into four primary quadrants:</p>
+              <p className="font-light text-lg">Our Framework is divided into <br />
+              four primary quadrants:</p>
               <div>
                 <p className="font-bold">Story (The "Why"):</p>
-                <p>
+                <p className="font-light">
                   Focused on connecting and emoting with the audience
                   through a narrative anchored by the "Elegant Authority" tone.
                 </p>
               </div>
               <div>
                 <p className="font-bold">Audience (The "Who"):</p>
-                <p>
+                <p className="font-light">
                   We target "Discerning Customers" seeking exceptional, immersive audio experiences
                   and "Premium Audio Retail Purveyors."
                 </p>
@@ -561,16 +575,16 @@ export default function BrandFoundationPage() {
             <div className="space-y-6">
               <div>
                 <p className="font-bold">Product/Service (The "What"):</p>
-                <p>What differentiates us is made up of three distinct parts:</p>
+                <p className="font-light">What differentiates us is made up of three distinct parts:</p>
                 <ul className="list-disc list-inside space-y-1 ml-4">
-                  <li><span className="font-semibold">Technology:</span> Off-the-shelf purchases.</li>
-                  <li><span className="font-semibold">Experiences:</span> Experiential audio.</li>
-                  <li><span className="font-semibold">Expertise:</span> Professional consultancy.</li>
+                  <li className="font-light"><span className="font-semibold">Technology:</span> Off-the-shelf purchases.</li>
+                  <li className="font-light"><span className="font-semibold">Experiences:</span> Experiential audio.</li>
+                  <li className="font-light"><span className="font-semibold">Expertise:</span> Professional consultancy.</li>
                 </ul>
               </div>
               <div>
                 <p className="font-bold">Personality (The "How"):</p>
-                <p>Defined by the overarching archetype of The Alchemist-King.</p>
+                <p className="font-light">Defined by the overarching archetype of The Alchemist-King.</p>
               </div>
             </div>
           </div>
@@ -591,7 +605,7 @@ export default function BrandFoundationPage() {
             className="w-full h-auto mb-6"
           />
           <Image
-            src="/brandsss.png"
+            src="/soundhous-images/brands.jpg"
             alt="Brand Strategy"
             width={1000}
             height={1000}
@@ -599,7 +613,6 @@ export default function BrandFoundationPage() {
           />
         </div>
       </section>
-
     </div>
   );
 }
