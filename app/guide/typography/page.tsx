@@ -19,14 +19,14 @@ export default function TypographyPage() {
         <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-normal mr-2">4.1.</span> Primary Typeface
+            <span className="font-light">4.1</span>&nbsp;&nbsp;Primary Typeface
           </h2>
 
           {/* 2 Column Layout */}
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-start">
             {/* LEFT COLUMN */}
             <div className="space-y-3 sm:space-y-4 text-gray-700 leading-relaxed">
-              <p className="text-xl sm:text-2xl font-bold text-black">Rubik</p>
+              <p className="text-2xl sm:text-6xl font-bold text-black">Rubik</p>
               <p className="text-sm sm:text-base">
                 Our brand typeface is Rubik.  
                 It is purposeful, authoritative,  
@@ -73,7 +73,7 @@ export default function TypographyPage() {
                     abcdefghijklmnopqrstuvwxyz<br/>
                     0123456789
                   </p>
-                  <p className="text-gray-500 text-xs sm:text-sm mt-1">Medium</p>
+                  <p className="text-gray-500 text-xs font-medium sm:text-sm mt-1">Medium</p>
                 </div>
                 <p className="text-base sm:text-lg text-black shrink-0">Subheadings 36pt</p>
               </div>
@@ -87,7 +87,7 @@ export default function TypographyPage() {
                     abcdefghijklmnopqrstuvwxyz<br/>
                     0123456789
                   </p>
-                  <p className="text-gray-500 text-xs sm:text-sm mt-1">Bold</p>
+                  <p className="text-gray-500 font-bold text-xs sm:text-sm mt-1">Bold</p>
                 </div>
                 <p className="text-lg sm:text-xl text-black font-bold shrink-0">Headings 48pt</p>
               </div>
@@ -100,7 +100,7 @@ export default function TypographyPage() {
         <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-normal mr-2">4.2.</span> Alternate Typeface
+            <span className="font-light">4.2</span>&nbsp;&nbsp;Alternate Typeface
           </h2>
 
           {/* 2 Column Layout */}

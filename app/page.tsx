@@ -4,9 +4,9 @@ import Link from "next/link";
 export default function Home() {
   const cards = [
     {
-      title: "Brand Foundation",
+      title: "Brand Guideline",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna",
-      href: "/guide/brand-foundation"
+      href: "/guide/brand-guideline"
     },
     {
       title: "Logo Rules",
