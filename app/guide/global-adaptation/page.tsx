@@ -24,7 +24,7 @@ export default function GlobalApplicationPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            8.1&nbsp;&nbsp;Africa
+            <span className="font-light">8.1</span>&nbsp;&nbsp;Africa
           </h2>
 
           {/* TOP GRID */}
@@ -105,7 +105,7 @@ export default function GlobalApplicationPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            8.2&nbsp;&nbsp;America
+            <span className="font-light">8.2</span>&nbsp;&nbsp;America
           </h2>
 
           {/* TOP GRID */}
@@ -175,7 +175,7 @@ export default function GlobalApplicationPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            8.3&nbsp;&nbsp;Arabia
+            <span className="font-light">8.3</span>&nbsp;&nbsp;Arabia
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-start">

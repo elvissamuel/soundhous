@@ -992,7 +992,7 @@ export default function LogoRulesPage() {
       <section id="brand-personality" className="scroll-mt-24">
         <div className="max-w-full mx-auto">
           <Image
-            src="/creative-assets.png"
+            src="/soundhous-images/attention-logo.jpg"
             alt="Brand Architype"
             width={1000}
             height={1000}

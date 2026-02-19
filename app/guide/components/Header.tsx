@@ -6,8 +6,8 @@ import { usePathname } from 'next/navigation';
 
 const pageTitles: Record<string, string> = {
   '/guide/brand-strategy': 'Brand Strategy',
-  '/guide/logo-rules': 'Logo Rules',
-  '/guide/colours': 'Colours',
+  '/guide/brand-foundation': 'Brand Foundation',
+  '/guide/brand-blueprint': 'Brand Blueprint',
   '/guide/typography': 'Typography',
   '/guide/sensory-guide': 'Sensory Guide',
   '/guide/photography': 'Photography',

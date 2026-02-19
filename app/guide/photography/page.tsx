@@ -25,7 +25,7 @@ export default function PhotographyPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION HEADER */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-10">
-            7.1&nbsp;&nbsp;Overall Aesthetics
+            <span className="font-light">7.1</span>&nbsp;&nbsp;Overall Aesthetics
           </h2>
 
           {/* CONTENT */}
@@ -72,7 +72,7 @@ export default function PhotographyPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            7.2&nbsp;&nbsp;Product Renders
+            <span className="font-light">7.2</span>&nbsp;&nbsp;Product Renders
           </h2>
 
           {/* MAIN GRID */}
@@ -154,7 +154,7 @@ export default function PhotographyPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            7.3&nbsp;&nbsp;Lifestyle Photography
+            <span className="font-light">7.3</span>&nbsp;&nbsp;Lifestyle Photography
           </h2>
 
           {/* INTRO TEXT */}
@@ -227,7 +227,7 @@ export default function PhotographyPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION HEADER */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white mb-10">
-            7.4&nbsp;&nbsp;Staff Photography
+            <span className="font-light">7.4</span>&nbsp;&nbsp;Staff Photography
           </h2>
 
           {/* CONTENT */}
@@ -287,7 +287,7 @@ export default function PhotographyPage() {
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            7.5. Photography Don'ts
+            <span className="font-light">7.5</span>&nbsp;&nbsp;Photography Don'ts
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-start">
