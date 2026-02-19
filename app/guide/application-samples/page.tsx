@@ -21,7 +21,7 @@ export default function ApplicationSamplesPage() {
           {/* LEFT — TEXT */}
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-              9.1&nbsp;&nbsp;General Clothing Guide
+              <span className="font-light">9.1</span>&nbsp;&nbsp;General Clothing Guide
             </h2>
 
             <p className="text-gray-700 leading-relaxed whitespace-pre-line">
@@ -79,7 +79,7 @@ It includes guidelines for different clothing categories (that the Project Manag
           {/* LEFT — TITLE + IMAGE */}
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              9.2&nbsp;&nbsp;Corporate Polo
+              <span className="font-light">9.2</span>&nbsp;&nbsp;Corporate Polo
             </h2>
 
             <Image
@@ -134,7 +134,7 @@ It includes guidelines for different clothing categories (that the Project Manag
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            9.3&nbsp;&nbsp;Corporate Shirt
+            <span className="font-light">9.3</span>&nbsp;&nbsp;Corporate Shirt
           </h2>
 
           {/* GRID */}
@@ -199,7 +199,7 @@ It includes guidelines for different clothing categories (that the Project Manag
           {/* LEFT — TITLE + IMAGE */}
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              9.4&nbsp;&nbsp;Signature Collection
+              <span className="font-light">9.4</span>&nbsp;&nbsp;Signature Collection
             </h2>
 
             <Image
@@ -268,7 +268,7 @@ It includes guidelines for different clothing categories (that the Project Manag
       >
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            9.5&nbsp;&nbsp;Signage
+            <span className="font-light">9.5</span>&nbsp;&nbsp;Signage
           </h2>
           <Image
             src="/signage.png"
@@ -297,7 +297,7 @@ It includes guidelines for different clothing categories (that the Project Manag
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            9.6&nbsp;&nbsp;Business Card
+            <span className="font-light">9.6</span>&nbsp;&nbsp;Business Card
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">
