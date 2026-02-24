@@ -9,14 +9,19 @@ export default function Home() {
       href: "/guide/brand-guideline"
     },
     {
-      title: "Logo Rules",
+      title: "Brand Foundation",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna",
-      href: "/guide/logo-rules"
+      href: "/guide/brand-foundation"
     },
     {
-      title: "Colours",
+      title: "Brand Blueprint",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna",
-      href: "/guide/colours"
+      href: "/guide/brand-blueprint"
+    },
+    {
+      title: "Symphony",
+      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna",
+      href: "/guide/symphony"
     },
     {
       title: "Typography",
@@ -34,9 +39,9 @@ export default function Home() {
       href: "/guide/photography"
     },
     {
-      title: "Other Brand Assets",
+      title: "Global Adaptation",
       description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, ut labore et dolore magna",
-      href: "/guide/other-brand-assets"
+      href: "/guide/global-adaptation"
     },
     {
       title: "Application Samples",

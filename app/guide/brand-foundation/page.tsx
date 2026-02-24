@@ -296,7 +296,7 @@ export default function BrandFoundationPage() {
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.4</span>&nbsp;&nbsp;Competitive Landscape</h2>
           <Image
-            src="/shd-1.png"
+            src="/competitive-illustration.png"
             alt="Competitive Landscape"
             width={1000}
             height={1000}
