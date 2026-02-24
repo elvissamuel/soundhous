@@ -380,7 +380,7 @@ export default function SensoryGuidePage() {
       {/* Bottom Full-width Image */}
       <div className="mt-8 sm:mt-12">
         <Image
-          src="/airy-light.png"
+          src="/Airy-light.png"
           alt="Soundhous brand textures"
           width={1200}
           height={800}
