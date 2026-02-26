@@ -347,37 +347,30 @@ export default function LogoRulesPage() {
 
             {/* LEFT + MIDDLE (Logos Section) */}
             <div className="lg:col-span-2 space-y-10">
-              {[
-                { label: "I. SIGNATURE LOGO", img: "/logo1.png" },
-                { label: "II. SECONDARY LOGO", img: "/logo2.png" },
-                { label: "III. ATTENTION LOGO", img: "/logo3.png" },
-                { label: "IV. SUBMARK", img: "/logo4.png" },
-                { label: "V. FAVICON", img: "/logo5.png" },
-              ].map((item, index) => (
-                <div key={index} className="flex items-center gap-6">
-
-                  {/* Text */}
-                  <div className="w-64 text-gray-300 tracking-wide">
-                    {item.label}
-                  </div>
-
-                  {/* Line */}
-                  <div className="flex-1 h-px bg-gray-600 relative">
-                    <div className="absolute right-0 top-0 h-4 w-px bg-gray-600 translate-y-[-8px]" />
-                  </div>
-
-                  {/* Logo Image */}
-                  <Image
-                    src={item.img}
-                    alt={item.label}
-                    width={120}
-                    height={60}
-                    className="h-auto w-24 object-contain"
-                  />
-
-                </div>
-              ))}
-            </div>
+  {[
+    { label: "I. SIGNATURE LOGO", img: "/logo1.png", imgClass: "w-24" },
+    { label: "II. SECONDARY LOGO", img: "/logo2.png", imgClass: "w-24" },
+    { label: "III. ATTENTION LOGO", img: "/logo3.png", imgClass: "w-24" },
+    { label: "IV. SUBMARK", img: "/logo4.png", imgClass: "w-12" },
+    { label: "V. FAVICON", img: "/logo5.png", imgClass: "w-12" },
+  ].map((item, index) => (
+    <div key={index} className="flex items-center gap-6">
+      <div className="w-64 text-gray-300 tracking-wide">
+        {item.label}
+      </div>
+      <div className="flex-1 h-px bg-gray-600 relative">
+        <div className="absolute right-0 top-0 h-4 w-px bg-gray-600 translate-y-[-8px]" />
+      </div>
+      <Image
+        src={item.img}
+        alt={item.label}
+        width={120}
+        height={60}
+        className={`h-auto ${item.imgClass} object-contain`}
+      />
+    </div>
+  ))}
+</div>
 
             {/* RIGHT SIDE TEXT */}
             <div className="border-l border-gray-700 pl-10 text-gray-300 text-lg leading-relaxed">
