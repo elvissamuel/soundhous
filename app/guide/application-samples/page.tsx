@@ -21,7 +21,7 @@ export default function ApplicationSamplesPage() {
           {/* LEFT — TEXT */}
           <div>
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-              <span className="font-light">9.1</span>&nbsp;&nbsp;General Clothing Guide
+              General Clothing Guide
             </h2>
 
             <p className="text-gray-700 leading-relaxed whitespace-pre-line">
@@ -79,7 +79,7 @@ It includes guidelines for different clothing categories (that the Project Manag
           {/* LEFT — TITLE + IMAGE */}
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              <span className="font-light">9.2</span>&nbsp;&nbsp;Corporate Polo
+              Corporate Polo
             </h2>
 
             <Image
@@ -134,7 +134,7 @@ It includes guidelines for different clothing categories (that the Project Manag
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            <span className="font-light">9.3</span>&nbsp;&nbsp;Corporate Shirt
+            Corporate Shirt
           </h2>
 
           {/* GRID */}
@@ -199,7 +199,7 @@ It includes guidelines for different clothing categories (that the Project Manag
           {/* LEFT — TITLE + IMAGE */}
           <div className="space-y-6">
             <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
-              <span className="font-light">9.4</span>&nbsp;&nbsp;Signature Collection
+              Signature Collection
             </h2>
 
             <Image
@@ -248,6 +248,70 @@ It includes guidelines for different clothing categories (that the Project Manag
         </div>
       </section>
 
+      <section id="celebratory-tshirt" className="relative scroll-mt-24 px-6 sm:px-10 md:px-16 py-12">
+        <h2 className="text-2xl md:text-3xl font-bold text-gray-900">
+              Celebratory T-shirt
+            </h2>
+  <div className="flex flex-col md:flex-row items-center gap-10 md:gap-16">
+    
+    {/* Left - T-shirt image */}
+    <div className="w-full md:w-1/2">
+      <Image
+        src="/celebratory-t-shirt.png"
+        alt="Celebratory T-shirt"
+        width={700}
+        height={600}
+        className="w-full h-auto object-contain"
+      />
+    </div>
+
+    {/* Right - Labels */}
+    <div className="w-full md:w-1/2 flex flex-col gap-8">
+      
+      {/* A, B, C Labels */}
+      {[
+        { letter: "A", label: "Submark" },
+        { letter: "B", label: "Attention logo" },
+        { letter: "C", label: "S-Wave Pattern" },
+      ].map((item) => (
+        <div key={item.letter} className="flex items-center gap-4">
+          {/* Broken circle badge */}
+          <div className="relative w-10 h-10 flex-shrink-0">
+            <svg viewBox="0 0 40 40" className="w-full h-full">
+              {/* 4 broken arc segments */}
+              <circle
+                cx="20" cy="20" r="12"
+                fill="none"
+                stroke="black"
+                strokeWidth="1.5"
+                strokeDasharray="20 5.1"
+                strokeDashoffset="1"
+              />
+              {/* Letter in center */}
+              <text
+                x="20" y="25"
+                textAnchor="middle"
+                fontSize="10"
+                fontWeight="500"
+                fill="black"
+                fontFamily="inherit"
+              >
+                {item.letter}
+              </text>
+            </svg>
+          </div>
+          <span className="text-sm md:text-sm text-black">{item.label}</span>
+        </div>
+      ))}
+
+      {/* Description */}
+      <p className="text-sm md:text-sm text-black mt-4 max-w-xs">
+        This T-shirt should be used in celebratory occasions.
+      </p>
+    </div>
+  </div>
+</section>
+
       {/* CELEBRATORY SHIRT IMAGE */}
       <section className="scroll-mt-24">
         <div className="max-w-full mx-auto">
@@ -268,7 +332,7 @@ It includes guidelines for different clothing categories (that the Project Manag
       >
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            <span className="font-light">9.5</span>&nbsp;&nbsp;Signage
+            Signage
           </h2>
           <Image
             src="/signage.png"
@@ -297,7 +361,7 @@ It includes guidelines for different clothing categories (that the Project Manag
         <div className="max-w-7xl mx-auto">
           {/* SECTION TITLE */}
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black mb-12">
-            <span className="font-light">9.6</span>&nbsp;&nbsp;Business Card
+            Business Card
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-start">

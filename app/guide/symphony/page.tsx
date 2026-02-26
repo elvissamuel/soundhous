@@ -18,21 +18,32 @@ export default function SymphonyPage() {
 
         <section
           id="brand-visual"
-          className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24"
+          className="relative scroll-mt-24"
         >
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+          
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
               <span className="font-light">3.1</span>&nbsp;&nbsp;Brand Visual Language & Identity System
             </h2>
 
-            <Image
-              src="/visual.png"
-              alt="Brand Archetype"
-              width={1000}
-              height={1000}
-              className="w-full h-auto mb-6"
-            />
-          </div>
+             <div
+              className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+              style={{
+                backgroundImage: "url('/section-bg-2.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+            
+              <p className="text-base sm:text-4xl md:text-5xl lg:text-[38px] font-black text-white font-semibold leading-tight ml-0 sm:ml-20 md:ml-16 w-fit">
+                We build with intention. Our identity 
+                system provides the framework that
+                turns our abstract philosophy into a 
+                tangible, recognisable reality.
+              </p>
+            
+            </div>
+          
         </section>
 
         <section
@@ -146,21 +157,33 @@ export default function SymphonyPage() {
 
         <section
           id="color-system"
-          className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24"
+          className="relative scroll-mt-24"
         >
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
+          
+            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
               <span className="font-light">3.2</span>&nbsp;&nbsp;Color System
             </h2>
-
-            <Image
-              src="/color-system.png"
-              alt="Color System"
-              width={1000}
-              height={1000}
-              className="w-full h-auto mb-6"
-            />
-          </div>
+           <div
+              className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+              style={{
+                backgroundImage: "url('/section-bg-2.png')",
+                backgroundSize: "cover",
+                backgroundPosition: "center",
+                backgroundRepeat: "no-repeat",
+              }}
+            >
+            
+              <p className="text-base sm:text-4xl md:text-5xl lg:text-[38px] font-black text-white font-semibold leading-tight ml-0 sm:ml-20 md:ml-16 w-fit">
+               Colours are used to bridge the gap
+                between what you are and how you want
+                to be felt. They act as a navigational guide, 
+                telling the human eye where to look, what
+                to trust, and when to take action.
+              </p>
+            
+            </div>
+            
+          
         </section>
 
         <section id="primary-colours" className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">

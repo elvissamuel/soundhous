@@ -11,27 +11,18 @@ interface MenuItem {
 }
 
 const menuItems: MenuItem[] = [
-  {
-    title: 'Brand Guideline',
-    href: '/guide/brand-guideline',
-    children: [
-      { title: 'Brand guideline', href: '/guide/brand-guideline' },
-      { title: 'About Soundhous', href: '/guide/brand-guideline#about-soundhous' },
-    ]
-      
-    
-  },
+  
 
   {
     title: 'Brand Foundation',
     href: '/guide/brand-foundation',
     children: [
-      { title: 'Brand guideline', href: '/guide/brand-foundation' },
       { title: 'Brand Basics', href: '/guide/brand-foundation#brand-basics' },
-      { title: 'Brand Philosophy', href: '/guide/brand-foundation#brand-philosophy' },
-      { title: 'Brand archetype', href: '/guide/brand-foundation#brand-archetype' },
+      { title: 'Brand Personality', href: '/guide/brand-foundation#brand-personality' },
       { title: 'Tone of Voice', href: '/guide/brand-foundation#tone-of-voice' },
       { title: 'Competitive landscape', href: '/guide/brand-foundation#competitive-landscape' },
+      { title: 'Target audience', href: '/guide/brand-foundation#target-audience' },
+
       { title: 'Brand positioning statement', href: '/guide/brand-foundation#brand-positioning' },
       { title: 'Brand DNA', href: '/guide/brand-foundation#brand-dna' },
       { title: 'Brand tagline', href: '/guide/brand-foundation#brand-tagline' },
@@ -48,13 +39,7 @@ const menuItems: MenuItem[] = [
     children: [
       { title: 'Logo Concept', href: '/guide/brand-blueprint#logo-concept' },
       { title: 'Logo Variation', href: '/guide/brand-blueprint#logo-variation' },
-      { title: 'Logo lockups', href: '/guide/brand-blueprint#logo-lockups' },
-      { title: 'Logo symbols', href: '/guide/brand-blueprint#logo-symbols' },
       { title: 'Logo Rules', href: '/guide/brand-blueprint#logo-rules' },
-      { title: 'Logo clear space', href: '/guide/brand-blueprint#logo-clear-space' },
-      { title: 'Layout Grid/Composition', href: '/guide/brand-blueprint#layout-grid' },
-      { title: 'Minimum Size and Format', href: '/guide/brand-blueprint#minimum-size-format' },
-      { title: 'Logo Misuse', href: '/guide/brand-blueprint#logo-misuse' },
       { title: 'Co-branding', href: '/guide/brand-blueprint#co-branding' },
 
     ],
@@ -65,11 +50,7 @@ const menuItems: MenuItem[] = [
     href: '/guide/symphony',
     children: [
       { title: 'Brand Visual Language', href: '/guide/symphony#brand-visual' },
-      { title: 'Brand Assets', href: '/guide/symphony#brand-assets' },
-      { title: 'Illustration Style', href: '/guide/symphony#illustration-style' },
       { title: 'Color System', href: '/guide/symphony#color-system' },
-      { title: 'Primary Colours', href: '/guide/symphony#primary-colours' },
-      { title: 'Secondary & Extended Palette', href: '/guide/symphony#secondary-extended-palette' },
       { title: 'Brand Architecture', href: '/guide/symphony#brand-architecture' },
       
       
@@ -80,7 +61,7 @@ const menuItems: MenuItem[] = [
     title: 'Typography',
     href: '/guide/typography',
     children: [
-      { title: 'Headings', href: '/guide/typography#headings' },
+      
       { title: 'Primary Typeface', href: '/guide/typography#primary-typeface' },
       { title: 'Alternate Typeface', href: '/guide/typography#alternate-typeface' },
       
@@ -90,22 +71,18 @@ const menuItems: MenuItem[] = [
     title: 'Sensory Guide',
     href: '/guide/sensory-guide',
     children: [
-      { title: 'Sensory Guide Style', href: '/guide/sensory-guide#sensory-guide-style' },
       { title: 'Design Philosophy', href: '/guide/sensory-guide#design-philosophy' },
       { title: 'Patterns', href: '/guide/sensory-guide#patterns' },
       { title: 'Textures', href: '/guide/sensory-guide#textures' },
       { title: 'Materials', href: '/guide/sensory-guide#materials' },
-      { title: 'Sensory Exploration', href: '/guide/sensory-guide#sensory-exploration' },
-      { title: 'Airy Light', href: '/guide/sensory-guide#airy-light' },
-      { title: 'Industrial Nomad', href: '/guide/sensory-guide#industrial-nomad' },
-      { title: 'Luxury Black', href: '/guide/sensory-guide#luxury-black' },
+      { title: 'AFROMIDI Sensory Exploration', href: '/guide/sensory-guide#sensory-exploration' },
+     
     ],
   },
   {
     title: 'Photography',
     href: '/guide/photography',
     children: [
-      { title: 'Photography Style', href: '/guide/photography#photography-style' },
       { title: 'Overall aesthetics', href: '/guide/photography#overall-aesthetics' },
       { title: 'Product renders', href: '/guide/photography#product-renders' },
       { title: 'Lifestyle Photography', href: '/guide/photography#lifestyle-photography' },
@@ -127,21 +104,7 @@ const menuItems: MenuItem[] = [
     title: 'Application Samples',
     href: '/guide/application-samples',
     children: [
-      { title: 'General clothing guide', href: '/guide/application-samples#general-clothing-guide' },
-      { title: 'Corporate polo', href: '/guide/application-samples#corporate-polo' },
-      { title: 'Corporate shirt', href: '/guide/application-samples#corporate-shirt' },
-      { title: 'Signature collection', href: '/guide/application-samples#signature-collection' },
-      { title: 'Signage', href: '/guide/application-samples#signage' },
-      { title: 'Business card', href: '/guide/application-samples#business-card' },
-      { title: 'Letterhead ', href: '/guide/application-samples#letterhead' },
-      { title: 'Envelope', href: '/guide/application-samples#envelope' },
-      { title: 'Staff IDs', href: '/guide/application-samples#staff-ids' },
-      { title: 'Social media', href: '/guide/application-samples#social-media' },
-      { title: 'Delivery truck', href: '/guide/application-samples#delivery-truck' },
-      { title: 'Mug', href: '/guide/application-samples#mug' },
-      { title: 'Bag', href: '/guide/application-samples#bag' },
-      { title: 'Coffee cup', href: '/guide/application-samples#coffee-cup' },
-      { title: 'Receipt', href: '/guide/application-samples#receipt' },
+      
     ],
   },
 ];

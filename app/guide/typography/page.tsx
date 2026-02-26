@@ -6,7 +6,7 @@ export default function TypographyPage() {
       <section id="typography" className="scroll-mt-24">
         <div className="max-w-full mx-auto">
           <Image
-            src="/typography.png"
+            src="/soundhous-images/typography.jpg"
             alt="Typography"
             width={1000}
             height={1000}
