@@ -13,6 +13,8 @@ const pageTitles: Record<string, string> = {
   '/guide/photography': 'Photography',
   '/guide/other-brand-assets': 'Other Brand Asset',
   '/guide/application-samples': 'Application Samples',
+    "/quick-reference": "Quick Reference Guide",
+
 };
 
 export default function Header() {
