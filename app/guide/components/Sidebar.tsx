@@ -79,6 +79,17 @@ const menuItems: MenuItem[] = [
      
     ],
   },
+
+  {
+    title: 'Spaces and places',
+    href: '/guide/spaces-and-places',
+    children: [
+      { title: 'Retail Guidelines', href: '/guide/spaces-and-places#retail-guidelines'},
+      { title: 'Display Guidelines', href: '/guide/spaces-and-places#display-guidelines'},
+      { title: 'Activation/Exhibition Stand Guidelienes', href: '/guide/spaces-and-places#Exhibition-guidelines'},
+      { title: 'Branding and Materials', href: '/guide/spaces-and-places#Branding-and-Materials'},
+    ],
+  },
   {
     title: 'Photography',
     href: '/guide/photography',

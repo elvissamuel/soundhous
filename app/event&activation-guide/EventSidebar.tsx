@@ -2,26 +2,28 @@
 
 import { useState } from "react";
 import Link from "next/link";
-import CommunicationsHeader from "./CommunicationsHeader";
+import EventHeader from "./EventHeader";
 
-export default function CommunicationsSidebar() {
+export default function EventSidebar() {
   const [open, setOpen] = useState(false);
 
   const items = [
     { id: "about-soundhous", label: "About Soundhous" },
     { id: "brand-basics", label: "Brand Basics" },
-    { id: "brand-personality", label: "Brand Personality" },
-    { id: "competitive-landscape", label: "Competitive Landscape" },
-    { id: "target-audience", label: "Target Audience" },
-    { id: "brand-positioning", label: "Brand Positioning" },
-    { id: "brand-tagline", label: "Brand Tagline" },
-    { id: "brand-messaging", label: "Brand Messaging" },
-    { id: "logo-variation", label: "Logo Variations" },
+    { id: "logo-variation", label: "Logo Variation" },
+    { id: "minimum-size-format", label: "Minimum size and format" },
+    { id: "logo-misuse", label: "Logo Misuse" },
+    { id: "primary-colours", label: "Primary Colours" },
+    { id: "secondary-extended", label: "Secondary and Extended Pallete" },
+    { id: "primary-typeface", label: "Primary Typeface" },
+    { id: "alternate-typeface", label: "Alternate Typeface" },
+    { id: "design-philosophy", label: "Design Philosophy"},
+    { id: "general-clothing-guide", label: "General Clothing Guide"}
   ];
 
   return (
     <>
-      <CommunicationsHeader
+      <EventHeader
         onMenuToggle={() => setOpen(!open)}
         isOpen={open}
       />

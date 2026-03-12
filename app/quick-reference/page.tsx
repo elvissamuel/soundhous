@@ -10,7 +10,7 @@ export default function QuickReferencePage() {
 
       {/* Sidebar */}
       <QuickReferenceSidebar />
-  <main className="lg:ml-60">
+  <main className="lg:ml-60 pt-16">
           {/* Our Story Section */}
           <section id="brand-guideline" className="scroll-mt-24">
                   <div className="max-w-full mx-auto">
