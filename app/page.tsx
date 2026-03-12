@@ -11,24 +11,24 @@ export default function Home() {
     image: "/hovered-effect.png"
   },
   {
-    title: "New Joiners guide",
+    title: "New Joiners Guide",
     description:
-      "For internal team members and new joiners. Covers brand foundation, sensory guide, photography and application standards.",
+      "FOR STAFF INDUCTIONS, COMPANY ORIENTATIONS, NEW JOINERS",
     href: "/new-joiner",
     image: "/hovered-effect.png"
   },
   {
-    title: "Communications & Marketing guide",
+    title: "Communications & Marketing Guide",
     description:
-      "For event planners and retail partners. Guidelines for creating Soundhous physical and experiential spaces.",
+      "FOR MARKETING AGENCIES, SOCIAL MEDIA ACCOUNT MANAGERS AND COMMUNITY MANAGERS",
     href: "/communications&marketing-guide",
     image: "/hovered-effect.png"
   },
   {
-    title: "Event & Activation guide",
+    title: "Event & Activation Guide",
     description:
-      "For marketing teams, agencies and community managers. Covers messaging, tone and communication structure.",
-    href: "/portal/house-style",
+      "FOR EVENT ORGANISERS, PLANNERS, RETAIL STORE FRANCHISES",
+    href: "/event&activation-guide",
     image: "/hovered-effect.png"
   }
 ];
@@ -51,8 +51,8 @@ export default function Home() {
         {/* Content Container */}
           <div className="relative z-10 w-full max-w-7xl mx-auto text-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-4 py-8 sm:py-12 md:py-16 flex items-center justify-center h-full">          
           <div className="flex flex-col text-white max-w-2xl mt-16 sm:mt-20 md:mt-24">            {/* Welcome Text - Split into two lines */}
-           <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold text-white leading-[1.1] transform translate-y-40 sm:translate-y-60 md:translate-y-70">
-             Welcome to Soundhous portal
+           <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white leading-[1.1] transform translate-y-40 sm:translate-y-60 md:translate-y-70">
+             Welcome to the Soundhous Brand Portal
            </h1>
             
           
@@ -72,29 +72,26 @@ export default function Home() {
     <Link
       key={index}
       href={card.href}
-      className="group relative overflow-hidden rounded-xl bg-black border border-gray-200/40 p-8 min-h-[220px] flex items-end"
+      className="group relative overflow-hidden rounded-lg border border-gray-200 bg-white p-6 sm:p-8 min-h-[220px] transition-colors duration-300 hover:bg-black"
     >
       
-      {/* Hover Background Image */}
+      {/* Hover Image */}
       <div className="absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-500">
         <Image
           src={card.image}
           alt={card.title}
           fill
-          className="object-contain object-right"
+          className="object-contain object-bottom object-right scale-90 group-hover:scale-100 transition-transform duration-700"
         />
       </div>
 
-      {/* Overlay (keeps text readable) */}
-      <div className="absolute inset-0 bg-black/40 group-hover:bg-black/20 transition-colors"></div>
-
-      {/* Text Content */}
+      {/* Text */}
       <div className="relative z-10 max-w-md">
-        <h2 className="text-xl font-bold text-white mb-3">
+        <h2 className="text-xl font-bold text-black group-hover:text-white mb-3 transition-colors">
           {card.title}
         </h2>
 
-        <p className="text-sm text-white/90 leading-relaxed">
+        <p className="text-sm text-black group-hover:text-white transition-colors leading-relaxed">
           {card.description}
         </p>
       </div>
@@ -102,6 +99,20 @@ export default function Home() {
     </Link>
   ))}
 </div>
+
+{/* CTA — View Full Guideline */}
+        <div className="flex flex-col items-center gap-4 mt-12 mb-4">
+          <p className="text-sm text-gray-500 tracking-wide uppercase">
+            Looking for the complete brand guidelines?
+          </p>
+          <Link
+            href="/guide"
+            className="group inline-flex items-center gap-2 border border-black text-black text-sm font-medium px-8 py-3 rounded-full hover:bg-black hover:text-white transition-colors duration-300"
+          >
+            Click here to see the full guideline
+            <span className="transition-transform duration-300 group-hover:translate-x-1">→</span>
+          </Link>
+        </div>
       </main>
     </div>
   );
