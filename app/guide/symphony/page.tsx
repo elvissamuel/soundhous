@@ -22,7 +22,7 @@ export default function SymphonyPage() {
         >
           
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
-              <span className="font-light">3.1</span>&nbsp;&nbsp;Brand Visual Language & Identity System
+              <span className="font-light">3.1.</span>&nbsp;&nbsp;Brand Visual Language & Identity System
             </h2>
 
              <div
@@ -52,7 +52,7 @@ export default function SymphonyPage() {
         >
           <div className="max-w-5xl mx-auto">
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-              <span className="font-light">3.1.1</span>&nbsp;&nbsp;Brand Assets
+              <span className="font-light">3.1.1.</span>&nbsp;&nbsp;Brand Assets
             </h2>
 
             <Image
@@ -161,7 +161,7 @@ export default function SymphonyPage() {
         >
           
             <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
-              <span className="font-light">3.2</span>&nbsp;&nbsp;Color System
+              <span className="font-light">3.2.</span>&nbsp;&nbsp;Color System
             </h2>
            <div
               className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
@@ -190,7 +190,7 @@ export default function SymphonyPage() {
           <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
             {/* Title */}
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-              <span className="font-light">3.2.1</span>&nbsp;&nbsp;Primary Colours
+              <span className="font-light">3.2.1.</span>&nbsp;&nbsp;Primary Colours
             </h2>
             
             {/* Intro Paragraph */}
@@ -274,7 +274,7 @@ export default function SymphonyPage() {
           <div className="max-w-6xl mx-auto space-y-12">
             {/* Title */}
             <h2 className="text-2xl md:text-4xl font-bold text-black">
-              <span className="font-light">3.2.2</span>&nbsp;&nbsp;Secondary & Extended Palette
+              <span className="font-light">3.2.2.</span>&nbsp;&nbsp;Secondary & Extended Palette
             </h2>
 
             {/* Grid of 9 Colours (3x3) */}
@@ -421,7 +421,7 @@ export default function SymphonyPage() {
           <div className="max-w-6xl mx-auto space-y-12">
             {/* Title */}
             <h2 className="text-2xl md:text-4xl font-bold text-black">
-              <span className="font-light">3.3</span>&nbsp;&nbsp;Brand Architecture
+              <span className="font-light">3.3.</span>&nbsp;&nbsp;Brand Architecture
             </h2>
 
             {/* 2 Column Layout */}

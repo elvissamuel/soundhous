@@ -28,7 +28,7 @@ export default function CommunicationsPage() {
       
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">1.1</span>&nbsp;&nbsp;About Soundhous
+            <span className="font-light">1.1.</span>&nbsp;&nbsp;About Soundhous
           </h2>
       
           {/* 3 Column Layout */}
@@ -101,7 +101,7 @@ export default function CommunicationsPage() {
       <section id="brand-basics" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-6xl mx-auto space-y-12">
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">1.2</span>&nbsp;&nbsp;Brand Basics
+            <span className="font-light">1.2.</span>&nbsp;&nbsp;Brand Basics
           </h2>
 
           <div className="space-y-4">
@@ -280,7 +280,7 @@ export default function CommunicationsPage() {
       <section id="brand-personality" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl font-bold text-gray-800 mb-2 sm:mb-3">
-            <span className="font-light">1.3</span>&nbsp;&nbsp;Brand Personality at a glance
+            <span className="font-light">1.3.</span>&nbsp;&nbsp;Brand Personality at a glance
           </h2>
           <div className="mb-6 sm:mb-8">
             <h3 className="text-xl sm:text-2xl md:text-6xl font-light text-gray-500">The Alchemist-King</h3>
@@ -329,7 +329,7 @@ export default function CommunicationsPage() {
       {/* Competitive Landscape */}
       <section id="competitive-landscape" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.4</span>&nbsp;&nbsp;Competitive Landscape</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.4.</span>&nbsp;&nbsp;Competitive Landscape</h2>
           <Image
             src="/competitive-illustration.png"
             alt="Competitive Landscape"
@@ -343,7 +343,7 @@ export default function CommunicationsPage() {
       {/* Target Audience */}
       <section id="target-audience" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5</span>&nbsp;&nbsp;Target Audience</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5.</span>&nbsp;&nbsp;Target Audience</h2>
           <Image
             src="/target-audience-2.png"
             alt="Target Audience"
@@ -358,7 +358,7 @@ export default function CommunicationsPage() {
       <section id="brand-positioning" className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24 scroll-mt-24">
         <div className="max-w-4xl mx-auto space-y-6 sm:space-y-8">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">1.6.&nbsp;&nbsp;</span> Brand Positioning Statement
+            <span className="font-light">1.6.</span> &nbsp;&nbsp;Brand Positioning Statement
           </h2>
           <p className="text-gray-500 font-light leading-relaxed text-lg sm:text-xl md:text-2xl lg:text-3xl xl:text-4xl">
             We are premium audio retail purveyors{" "}
@@ -461,7 +461,7 @@ export default function CommunicationsPage() {
       <section id="brand-messaging" className="px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 scroll-mt-24">
         <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900">
-            <span className="font-light">1.8.&nbsp;&nbsp;</span> Brand Messaging
+            <span className="font-light">1.8.</span>&nbsp;&nbsp; Brand Messaging
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 sm:gap-10 md:gap-12 text-gray-800">
@@ -598,7 +598,7 @@ export default function CommunicationsPage() {
                   {/* LEFT TEXT */}
                   <div className="space-y-6 max-w-lg">
                     <h2 className="text-2xl md:text-3xl font-bold text-black">
-                      <span className="font-light">1.9</span>&nbsp;&nbsp;Logo Variations
+                      <span className="font-light">1.9.</span>&nbsp;&nbsp;Logo Variations
                     </h2>
                     <p className="text-base md:text-lg font-light text-black leading-relaxed">
                       At the heart of our identity is our wordmark. It is designed to be as

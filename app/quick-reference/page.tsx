@@ -883,77 +883,88 @@ export default function QuickReferencePage() {
     </section>
 
     <section className="py-24">
-      <div className="container mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-20 max-w-7xl">
-        {/* BUSINESS CARD */}
-        <div className="grid md:grid-cols-2 gap-10 text-black items-start">
-          <div className="space-y-10 text-sm leading-relaxed">
-            <div>
-              <h3 className="font-semibold tracking-wide text-black mb-3">FRONT</h3>
-              <p className="text-black"><span className="font-medium">Name :</span> Rubik Bold, 12pt</p>
-              <p className="text-black"><span className="font-medium">Title:</span> Rubik Regular, 8pt</p>
-              <p className="text-black"><span className="font-medium">Contact:</span> Rubik Regular, 6pt</p>
-              <p className="mt-2 text-black">
-                <span className="font-medium">Email/social media details:</span><br/>
-                Rubik Regular, 6pt
-              </p>
-            </div>
-            <div>
-              <h3 className="font-semibold tracking-wide mb-3">BACK</h3>
-              <p><span className="font-medium">Central Focal Point:</span> Solid Black Background.</p>
-              <p className="mt-2">
-                <span className="font-medium">Centre:</span> Soundhous Logo
-                <br />(Reversed out in White).
-              </p>
-            </div>
-          </div>
+  <div className="container mx-auto px-6 lg:px-8 grid lg:grid-cols-2 gap-20 max-w-7xl">
 
-          <div className="space-y-10">
-            <div className="">
-              <Image
-                src="/quick-reference/front-business-card.png"
-                alt="Soundhous business card front"
-                width={500}
-                height={300}
-                className="w-full h-auto"
-              />
-            </div>
-            <div className="">
-              <Image
-                src="/quick-reference/back-business-card.png"
-                alt="Soundhous business card back"
-                width={500}
-                height={300}
-                className="w-full h-auto"
-              />
-            </div>
-          </div>
-        </div>
+    {/* BUSINESS CARD */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 text-black items-start">
 
-        {/* LETTERHEAD */}
-        <div className="grid md:grid-cols-2 gap-10 items-start">
-          <div className="space-y-6 text-sm text-black leading-relaxed">
-            <p>
-              <span className="font-medium">Header</span><br />
-              Top left: Signature Logo
-            </p>
-            <p>
-              Top Right: Contact Block, Location, Social, Phone
-              <br />(Rubik Regular 7.5pt)
-            </p>
-            <p><span className="font-medium">Footer:</span> Signature Pattern</p>
-          </div>
-          <div className="border p-4 bg-neutral-50">
-            <Image
-              src="/quick-reference/letterhead.png"
-              alt="Soundhous letterhead"
-              width={500}
-              height={700}
-              className="w-full h-auto"
-            />
-          </div>
-        </div>
+      {/* FRONT text */}
+      <div className="order-1 text-sm leading-relaxed">
+        <h3 className="font-semibold tracking-wide text-black mb-3">FRONT</h3>
+        <p className="text-black"><span className="font-medium">Name:</span> Rubik Bold, 12pt</p>
+        <p className="text-black"><span className="font-medium">Title:</span> Rubik Regular, 8pt</p>
+        <p className="text-black"><span className="font-medium">Contact:</span> Rubik Regular, 6pt</p>
+        <p className="mt-2 text-black">
+          <span className="font-medium">Email/social media details:</span><br />
+          Rubik Regular, 6pt
+        </p>
       </div>
-    </section>
+
+      {/* FRONT image — stacks under FRONT text on mobile */}
+      <div className="order-2">
+        <Image
+          src="/quick-reference/front-business-card.png"
+          alt="Soundhous business card front"
+          width={500}
+          height={300}
+          className="w-full h-auto"
+        />
+      </div>
+
+      {/* BACK text */}
+      <div className="order-3 text-sm leading-relaxed">
+        <h3 className="font-semibold tracking-wide mb-3">BACK</h3>
+        <p><span className="font-medium">Central Focal Point:</span> Solid Black Background.</p>
+        <p className="mt-2">
+          <span className="font-medium">Centre:</span> Soundhous Logo
+          <br />(Reversed out in White).
+        </p>
+      </div>
+
+      {/* BACK image — stacks under BACK text on mobile */}
+      <div className="order-4">
+        <Image
+          src="/quick-reference/back-business-card.png"
+          alt="Soundhous business card back"
+          width={500}
+          height={300}
+          className="w-full h-auto"
+        />
+      </div>
+
+    </div>
+
+    {/* LETTERHEAD */}
+    <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-10 items-start">
+
+      {/* Letterhead header text */}
+      <div className="order-1 text-sm text-black leading-relaxed space-y-6">
+        <p>
+          <span className="font-medium">Header</span><br />
+          Top left: Signature Logo
+        </p>
+        <p>
+          Top Right: Contact Block, Location, Social, Phone
+          <br />(Rubik Regular 7.5pt)
+        </p>
+        <p><span className="font-medium">Footer:</span> Signature Pattern</p>
+      </div>
+
+      {/* Letterhead image — stacks under header text on mobile */}
+      <div className="order-2 border p-4 bg-neutral-50">
+        <Image
+          src="/quick-reference/letterhead.png"
+          alt="Soundhous letterhead"
+          width={500}
+          height={700}
+          className="w-full h-auto"
+        />
+      </div>
+
+    </div>
+
+  </div>
+</section>
 
     </main>
   </div>

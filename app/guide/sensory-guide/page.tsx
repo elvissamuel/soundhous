@@ -25,7 +25,7 @@ export default function SensoryGuidePage() {
       >
         
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
-            <span className="font-light">5.1</span>&nbsp;&nbsp;Design Philosophy
+            <span className="font-light">5.1.</span>&nbsp;&nbsp;Design Philosophy
           </h2>
 
           <div
@@ -74,7 +74,7 @@ export default function SensoryGuidePage() {
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-            <span className="font-light">5.2</span>&nbsp;&nbsp;Patterns
+            <span className="font-light">5.2.</span>&nbsp;&nbsp;Patterns
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-start">
@@ -142,7 +142,7 @@ export default function SensoryGuidePage() {
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-            <span className="font-light">5.3</span>&nbsp;&nbsp;Textures
+            <span className="font-light">5.3.</span>&nbsp;&nbsp;Textures
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -193,7 +193,7 @@ export default function SensoryGuidePage() {
       >
         <div className="max-w-7xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-8">
-            <span className="font-light">5.4</span>&nbsp;&nbsp;Materials
+            <span className="font-light">5.4.</span>&nbsp;&nbsp;Materials
           </h2>
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-16 items-center">
@@ -235,7 +235,7 @@ export default function SensoryGuidePage() {
       >
         
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
-            <span className="font-light">5.5</span>&nbsp;&nbsp;AFROMIDI Sensory Exploration
+            <span className="font-light">5.5.</span>&nbsp;&nbsp;AFROMIDI Sensory Exploration
           </h2>
 
           <div
@@ -312,7 +312,7 @@ export default function SensoryGuidePage() {
       {/* Header */}
       <div className="flex flex-wrap justify-between items-start gap-4 mb-12">
         <h2 className="text-3xl sm:text-4xl font-bold text-black">
-          <span className="font-light">5.5.1</span>&nbsp;&nbsp;Airy Light
+          <span className="font-light">5.5.1.</span>&nbsp;&nbsp;Airy Light
         </h2>
 
         <Image
@@ -421,7 +421,7 @@ export default function SensoryGuidePage() {
     {/* Header */}
     <div className="flex flex-wrap justify-between items-start gap-4 mb-12">
       <h2 className="text-3xl sm:text-4xl font-bold text-black">
-        <span className="font-light">5.5.2</span>&nbsp;Industrial Nomad
+        <span className="font-light">5.5.2.</span>&nbsp;Industrial Nomad
       </h2>
 
       <Image
@@ -529,7 +529,7 @@ export default function SensoryGuidePage() {
     {/* Header */}
     <div className="flex flex-wrap justify-between items-start gap-4 mb-12">
       <h2 className="text-3xl sm:text-4xl font-bold text-black">
-        <span className="font-light">5.5.3</span>&nbsp;&nbsp;Luxury Black
+        <span className="font-light">5.5.3.</span>&nbsp;&nbsp;Luxury Black
       </h2>
 
       <Image

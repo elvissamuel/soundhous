@@ -29,7 +29,7 @@ export default function NewJoinerPage() {
       
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">1.1</span>&nbsp;&nbsp;About Soundhous
+            <span className="font-light">1.1.</span>&nbsp;&nbsp;About Soundhous
           </h2>
       
           {/* 3 Column Layout */}
@@ -102,7 +102,7 @@ export default function NewJoinerPage() {
       <section id="brand-basics" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-6xl mx-auto space-y-12">
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">1.2</span>&nbsp;&nbsp;Brand Basics
+            <span className="font-light">1.2.</span>&nbsp;&nbsp;Brand Basics
           </h2>
 
           <div className="space-y-4">
@@ -297,7 +297,7 @@ export default function NewJoinerPage() {
        {/* Competitive Landscape */}
       <section id="competitive-landscape" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.3</span>&nbsp;&nbsp;Competitive Landscape</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.3.</span>&nbsp;&nbsp;Competitive Landscape</h2>
           <Image
             src="/competitive-illustration.png"
             alt="Competitive Landscape"
@@ -311,7 +311,7 @@ export default function NewJoinerPage() {
        {/* Target Audience */}
       <section id="target-audience" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5</span>&nbsp;&nbsp;Target Audience</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5.</span>&nbsp;&nbsp;Target Audience</h2>
           <Image
             src="/target-audience-2.png"
             alt="Target Audience"
@@ -383,7 +383,7 @@ export default function NewJoinerPage() {
                   
                             {/* Title */}
                             <h2 className="text-2xl md:text-4xl font-bold text-black">
-                              <span className="font-light">1.8</span>&nbsp;&nbsp;Logo Misuse
+                              <span className="font-light">1.8.</span>&nbsp;&nbsp;Logo Misuse
                             </h2>
                   
                             {/* 2 Column Layout */}
@@ -433,7 +433,7 @@ export default function NewJoinerPage() {
                   {/* LEFT TEXT */}
                   <div className="space-y-6 max-w-lg">
                     <h2 className="text-2xl md:text-3xl font-bold text-black">
-                      <span className="font-light">1.9</span>&nbsp;&nbsp;Logo Variations
+                      <span className="font-light">1.9.</span>&nbsp;&nbsp;Logo Variations
                     </h2>
                     <p className="text-base md:text-lg font-light text-black leading-relaxed">
                       At the heart of our identity is our wordmark. It is designed to be as
@@ -578,7 +578,7 @@ export default function NewJoinerPage() {
 
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">1.10</span>&nbsp;&nbsp;Minimum Size and Format
+            <span className="font-light">1.10.</span>&nbsp;&nbsp;Minimum Size and Format
           </h2>
 
           {/* 2 Column Layout */}
@@ -691,7 +691,7 @@ export default function NewJoinerPage() {
                 {/* LEFT — TEXT */}
                 <div>
                   <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6">
-            <span className="font-light">1.11</span>&nbsp;&nbsp;General clothing guide
+            <span className="font-light">1.11.</span>&nbsp;&nbsp;General clothing guide
                   </h2>
       
                   <p className="text-gray-700 leading-relaxed whitespace-pre-line">

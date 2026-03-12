@@ -128,7 +128,7 @@ export default function BrandFoundationPage() {
       <section id="brand-basics" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-6xl mx-auto space-y-12">
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">1.1</span>&nbsp;&nbsp;Brand Basics
+            <span className="font-light">1.1.</span>&nbsp;&nbsp;Brand Basics
           </h2>
 
           <div className="space-y-4">
@@ -222,7 +222,7 @@ export default function BrandFoundationPage() {
       <section id="brand-archetype" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-gray-900 mb-4 sm:mb-6">
-            <span className="font-light">1.2.1</span>&nbsp;&nbsp;Brand Archetype
+            <span className="font-light">1.2.1.</span>&nbsp;&nbsp;Brand Archetype
           </h2>
           <Image
             src="/brand-archetype.png"
@@ -238,7 +238,7 @@ export default function BrandFoundationPage() {
  <section id="tone-of-voice" className="relative scroll-mt-24">
   {/* Heading on white */}
   <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
-    <span className="font-light">1.2.</span>&nbsp;&nbsp;Tone of Voice
+    <span className="font-light">1.3.</span>&nbsp;&nbsp;Tone of Voice
   </h2>
 
   {/* Black bg image portion */}
@@ -385,7 +385,7 @@ export default function BrandFoundationPage() {
               <tbody>
                 <tr>
                   <td className="border border-gray-300 bg-gray-50 p-3 sm:p-4 text-sm sm:text-base font-semibold text-gray-900 align-top">Core Archetypes</td>
-                  <td className="border border-gray-300 bg-blue-100 p-3 sm:p-4 text-sm sm:text-base text-gray-900 align-top">Creator (design-led innovation)*</td>
+                  <td className="border border-gray-300 bg-blue-100 p-3 sm:p-4 text-sm sm:text-base text-gray-900 align-top">Creator (design-led innovation)</td>
                   <td className="border border-gray-300 bg-green-100 p-3 sm:p-4 text-sm sm:text-base text-gray-900 align-top">Sage (expert knowledge)</td>
                   <td className="border border-gray-300 bg-yellow-100 p-3 sm:p-4 text-sm sm:text-base text-gray-900 align-top">Magician (transformational sonic experiences)</td>
                   <td className="border border-gray-300 bg-gray-50 p-3 sm:p-4 text-sm sm:text-base font-semibold text-gray-900 align-top text-center">FEEL</td>
@@ -413,7 +413,7 @@ export default function BrandFoundationPage() {
       {/* Competitive Landscape */}
       <section id="competitive-landscape" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.4</span>&nbsp;&nbsp;Competitive Landscape</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.4.</span>&nbsp;&nbsp;Competitive Landscape</h2>
           <Image
             src="/competitive-illustration.png"
             alt="Competitive Landscape"
@@ -427,7 +427,7 @@ export default function BrandFoundationPage() {
       {/* Target Audience */}
       <section id="target-audience" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-24 scroll-mt-24">
         <div className="max-w-5xl mx-auto">
-          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5</span>&nbsp;&nbsp;Target Audience</h2>
+          <h2 className="text-2xl font-bold text-gray-800 mb-4 sm:mb-6"><span className="font-light">1.5.</span>&nbsp;&nbsp;Target Audience</h2>
           <Image
             src="/target-audience-2.png"
             alt="Target Audience"
@@ -663,7 +663,7 @@ export default function BrandFoundationPage() {
       {/* Brand Strategy */}
       <section id="brand-strategy" className="relative scroll-mt-24">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
-    <span className="font-light">1.10</span>&nbsp;&nbsp;Brand Strategy
+    <span className="font-light">1.10.</span>&nbsp;&nbsp;Brand Strategy
   </h2>
      <div
   className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
@@ -745,7 +745,7 @@ export default function BrandFoundationPage() {
             Brand Strategy at a glance
           </h2>
           <Image
-            src="/glance.png"
+            src="/brand-strategy-glance.png"
             alt="Brand Strategy at a Glance"
             width={1000}
             height={1000}
