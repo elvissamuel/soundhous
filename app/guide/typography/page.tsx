@@ -19,7 +19,7 @@ export default function TypographyPage() {
         <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">4.1</span>&nbsp;&nbsp;Primary Typeface
+            <span className="font-light">4.1.</span>&nbsp;&nbsp;Primary Typeface
           </h2>
 
           {/* 2 Column Layout */}
@@ -100,7 +100,7 @@ export default function TypographyPage() {
         <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">4.2</span>&nbsp;&nbsp;Alternate Typeface
+            <span className="font-light">4.2.</span>&nbsp;&nbsp;Alternate Typeface
           </h2>
 
           {/* 2 Column Layout */}

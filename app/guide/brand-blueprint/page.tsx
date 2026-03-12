@@ -250,7 +250,7 @@ export default function LogoRulesPage() {
             {/* LEFT TEXT */}
             <div className="space-y-6 max-w-lg">
               <h2 className="text-2xl md:text-3xl font-bold text-black">
-                <span className="font-light">2.2</span>&nbsp;&nbsp;Logo Variations
+                <span className="font-light">2.2.</span>&nbsp;&nbsp;Logo Variations
               </h2>
               <p className="text-base md:text-lg font-light text-black leading-relaxed">
                 At the heart of our identity is our wordmark. It is designed to be as
@@ -267,7 +267,7 @@ export default function LogoRulesPage() {
                 alt="Horizontal Lockup"
                 className="w-56 sm:w-64 md:w-72 lg:w-80 h-auto mx-auto lg:ml-auto"
               />
-              <p className="mt-2 text-xs sm:text-sm text-black">
+              <p className="mt-2 text-xs text-center sm:text-sm text-black ">
                 Horizontal Lockup
               </p>
             </div>
@@ -325,7 +325,7 @@ export default function LogoRulesPage() {
                 alt="Vertical Lockup"
                 className="w-40 sm:w-44 md:w-52 h-auto mx-auto md:ml-auto"
               />
-              <p className="mt-2 text-xs sm:text-sm text-black">
+              <p className="mt-2 text-xs text-center sm:text-sm text-black">
                 Vertical Lockup
               </p>
             </div>
@@ -389,7 +389,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-3xl md:text-4xl text-black font-bold mb-6">
-            <span className="font-light">2.2.1</span>&nbsp;&nbsp;Logo Lockups
+            <span className="font-light">2.2.1.</span>&nbsp;&nbsp;Logo Lockups
           </h2>
 
           {/* Intro Paragraph */}
@@ -459,7 +459,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-bold text-black mb-12">
-            <span className="font-light">2.2.2</span>&nbsp;&nbsp;Logo Symbols
+            <span className="font-light">2.2.2.</span>&nbsp;&nbsp;Logo Symbols
           </h2>
 
           {/* Centered Top Image */}
@@ -596,7 +596,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">2.3</span>&nbsp;&nbsp;Logo Rules
+            <span className="font-light">2.3.</span>&nbsp;&nbsp;Logo Rules
           </h2>
 
           {/* Paragraph */}
@@ -634,7 +634,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">2.3.1</span>&nbsp;&nbsp;Logo Clear Space
+            <span className="font-light">2.3.1.</span>&nbsp;&nbsp;Logo Clear Space
           </h2>
 
           {/* Content */}
@@ -675,7 +675,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">2.3.2</span>&nbsp;&nbsp;Layout Grid/Composition
+            <span className="font-light">2.3.2.</span>&nbsp;&nbsp;Layout Grid/Composition
           </h2>
 
           {/* 3 Column Layout */}
@@ -742,7 +742,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
-            <span className="font-light">2.3.3</span>&nbsp;&nbsp;Minimum Size and Format
+            <span className="font-light">2.3.3.</span>&nbsp;&nbsp;Minimum Size and Format
           </h2>
 
           {/* 2 Column Layout */}
@@ -855,7 +855,7 @@ export default function LogoRulesPage() {
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">2.3.4</span>&nbsp;&nbsp;Logo Misuse
+            <span className="font-light">2.3.4.</span>&nbsp;&nbsp;Logo Misuse
           </h2>
 
           {/* 2 Column Layout */}
@@ -890,13 +890,52 @@ export default function LogoRulesPage() {
         </div>
       </section>
 
-      {/* 2.4 Co-branding */}
+      <section id="brand-architecture" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
+                <div className="max-w-6xl mx-auto space-y-12">
+                  {/* Title */}
+                  <h2 className="text-2xl md:text-4xl font-bold text-black">
+                    <span className="font-light">2.4.</span>&nbsp;&nbsp;Brand Architecture
+                  </h2>
+      
+                  {/* 2 Column Layout */}
+                  <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
+                    {/* LEFT SIDE TEXT */}
+                    <div className="space-y-4 text-gray-700 leading-relaxed">
+                      <p className="text-lg text-black font-light">
+                        Brand architecture is the structural system that organises a company's brands,
+                        sub-brands, products, and services to show how they relate to one another.
+                      </p>
+                    </div>
+      
+                    {/* RIGHT SIDE TEXT */}
+                    <div className="space-y-4 text-gray-700 leading-relaxed">
+                      <p>
+                        <strong className="text-black">Branded House:</strong> In this case, a single "Master Brand" is applied to everything. 
+                        This creates maximum consistency and builds equity in one name.
+                      </p>
+                    </div>
+                  </div>
+      
+                  {/* Large Image Beneath Both Columns */}
+                  <div className="flex justify-center mt-12">
+                    <Image
+                      src="/brand-architecture.png"
+                      alt="Soundhaus brand architecture diagram"
+                      width={900}
+                      height={600}
+                      className="w-full max-w-4xl h-auto object-contain"
+                    />
+                  </div>
+                </div>
+              </section>
+
+      {/* 2.5 Co-branding */}
       <section id="co-branding" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
         <div className="max-w-6xl mx-auto space-y-12">
 
           {/* Title */}
           <h2 className="text-2xl md:text-4xl font-bold text-black">
-            <span className="font-light">2.4</span>&nbsp;&nbsp;Co-branding
+            <span className="font-light">2.5.</span>&nbsp;&nbsp;Co-branding
           </h2>
 
           {/* 2 Column Layout */}
