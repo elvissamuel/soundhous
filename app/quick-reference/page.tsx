@@ -861,7 +861,7 @@ export default function QuickReferencePage() {
               <div className="flex flex-col gap-8">
                 <div className="aspect-[3/1]">
                   <Image
-                    src="/quick-reference/front-business-card.png"
+                    src="/business-card-front.png"
                     alt="Soundhous business card front"
                     width={400}
                     height={200}
