@@ -1011,7 +1011,7 @@ export default function LogoRulesPage() {
       <section id="brand-personality" className="scroll-mt-24">
         <div className="max-w-full mx-auto">
           <Image
-            src="/co-branding-assets.png"
+            src="/soundhous-images/soundhous-sonos.png"
             alt="Brand Architype"
             width={1000}
             height={1000}
@@ -1024,7 +1024,7 @@ export default function LogoRulesPage() {
       <section id="brand-personality" className="scroll-mt-24">
         <div className="max-w-full mx-auto">
           <Image
-            src="/soundhous-images/attention-logo.jpg"
+            src="/soundhous-images/attention.png"
             alt="Brand Architype"
             width={1000}
             height={1000}

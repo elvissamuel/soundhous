@@ -4,52 +4,52 @@ import { QuoteMark } from "../components/Quotemark";
 
 export default function BrandFoundationPage() {
   return (
-    
-      <div className="bg-white">
-            {/* Our Story Section */}
-            <section id="brand-guideline" className="scroll-mt-24">
-                    <div className="max-w-full mx-auto">
-                      <Image
-                        src="/soundhous-images/brand-guideline.jpg"
-                        alt="Brand Guideline"
-                        width={1000}
-                        height={1000}
-                        className="w-full h-auto"
-                      />
-                    </div>
-                  </section>
-      
-            <section id="brand-guideline" className="scroll-mt-24">
-                    <div className="max-w-full mx-auto">
-                      <Image
-                        src="/sound.png"
-                        alt="Brand Guideline"
-                        width={1000}
-                        height={1000}
-                        className="w-full h-auto"
-                      />
-                    </div>
 
-                    {/* Footnote */}
-  <div className="px-6 sm:px-10 md:px-16 pb-10">
-    <div className="w-12 h-px bg-black mb-2" />
-    <p className="text-xs text-black">
-      For emerging brands, prioritising a wordmark over an abstract symbol is often the most effective strategy for building immediate brand recognition.
-    </p>
-  </div>
-                  </section>
-      
-           <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
+    <div className="bg-white">
+      {/* Our Story Section */}
+      <section id="brand-guideline" className="scroll-mt-24">
+        <div className="max-w-full mx-auto">
+          <Image
+            src="/soundhous-images/brand-guideline-2.png"
+            alt="Brand Guideline"
+            width={1000}
+            height={1000}
+            className="w-full h-auto"
+          />
+        </div>
+      </section>
+
+      <section id="brand-guideline" className="scroll-mt-24">
+        <div className="max-w-full mx-auto">
+          <Image
+            src="/sound.png"
+            alt="Brand Guideline"
+            width={1000}
+            height={1000}
+            className="w-full h-auto"
+          />
+        </div>
+
+        {/* Footnote */}
+        <div className="px-6 sm:px-10 md:px-16 pb-10">
+          <div className="w-12 h-px bg-black mb-2" />
+          <p className="text-xs text-black">
+            For emerging brands, prioritising a wordmark over an abstract symbol is often the most effective strategy for building immediate brand recognition.
+          </p>
+        </div>
+      </section>
+
+      <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
         <div className="max-w-6xl mx-auto space-y-8 sm:space-y-10 md:space-y-12">
-      
+
           {/* Title */}
           <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
             About Soundhous
           </h2>
-      
+
           {/* 3 Column Layout */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 md:gap-12 items-start text-left">
-      
+
             {/* LEFT COLUMN - Pushed down with margin-top */}
             <div className="space-y-2 text-gray-700 md:mt-[180px] lg:mt-[175px]">
               <p className="text-black text-sm sm:text-base">1.) Our brand is</p>
@@ -61,7 +61,7 @@ export default function BrandFoundationPage() {
                 <li>Purist</li>
               </ul>
             </div>
-      
+
             {/* MIDDLE COLUMN */}
             <div className="space-y-6 sm:space-y-8 text-gray-700">
               <div className="space-y-2">
@@ -73,7 +73,7 @@ export default function BrandFoundationPage() {
                   <li>Light &amp; Airy</li>
                 </ul>
               </div>
-      
+
               <div className="space-y-2">
                 <p className="text-black text-sm sm:text-base">3.) Our people are</p>
                 <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
@@ -84,7 +84,7 @@ export default function BrandFoundationPage() {
                 </ul>
               </div>
             </div>
-      
+
             {/* RIGHT COLUMN */}
             <div className="space-y-6 sm:space-y-8 text-gray-700">
               <div className="space-y-2">
@@ -96,7 +96,7 @@ export default function BrandFoundationPage() {
                   <li>Experiential/sonic</li>
                 </ul>
               </div>
-      
+
               <div className="space-y-2">
                 <p className="text-black text-sm sm:text-base">5.) We are NOT</p>
                 <ul className="list-none font-bold space-y-1 text-sm sm:text-base">
@@ -107,7 +107,7 @@ export default function BrandFoundationPage() {
                 </ul>
               </div>
             </div>
-      
+
           </div>
         </div>
       </section>
@@ -163,27 +163,27 @@ export default function BrandFoundationPage() {
         </div>
       </section>
 
- <section id="brand-personality" className="relative scroll-mt-24">
-  {/* Heading on white */}
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
-    <span className="font-light">1.2.</span>&nbsp;&nbsp;Brand Personality
-  </h2>
+      <section id="brand-personality" className="relative scroll-mt-24">
+        {/* Heading on white */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
+          <span className="font-light">1.2.</span>&nbsp;&nbsp;Brand Personality
+        </h2>
 
-  {/* Black bg image portion */}
-  <div
-    className="relative bg-black flex items-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
-    style={{
-      backgroundImage: "url('/section-bg-2.png')",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-    }}
-  >
-    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black font-semibold text-white leading-tight">
-      The Alchemist-King
-    </p>
-  </div>
-</section>
+        {/* Black bg image portion */}
+        <div
+          className="relative bg-black flex items-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+          style={{
+            backgroundImage: "url('/section-bg-2.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black font-semibold text-white leading-tight">
+            The Alchemist-King
+          </p>
+        </div>
+      </section>
 
       {/* The Alchemist-King */}
       <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
@@ -207,7 +207,7 @@ export default function BrandFoundationPage() {
 
             <div className="border-l-0 md:border-l border-gray-300 md:pl-6 lg:pl-8">
               <Image
-                src="/archetype-combination.png"
+                src="/soundhous-images/archetype-combination.png"
                 alt="Archetype Combination"
                 width={600}
                 height={400}
@@ -234,28 +234,28 @@ export default function BrandFoundationPage() {
         </div>
       </section>
 
-     {/* TONE OF VOICE */}
- <section id="tone-of-voice" className="relative scroll-mt-24">
-  {/* Heading on white */}
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
-    <span className="font-light">1.3.</span>&nbsp;&nbsp;Tone of Voice
-  </h2>
+      {/* TONE OF VOICE */}
+      <section id="tone-of-voice" className="relative scroll-mt-24">
+        {/* Heading on white */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
+          <span className="font-light">1.3.</span>&nbsp;&nbsp;Tone of Voice
+        </h2>
 
-  {/* Black bg image portion */}
-  <div
-    className="relative bg-black flex items-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
-    style={{
-      backgroundImage: "url('/section-bg-2.png')",
-      backgroundSize: "cover",
-      backgroundPosition: "center",
-      backgroundRepeat: "no-repeat",
-    }}
-  >
-    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black font-semibold text-white leading-tight">
-      Elegant Authority
-    </p>
-  </div>
-</section>
+        {/* Black bg image portion */}
+        <div
+          className="relative bg-black flex items-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+          style={{
+            backgroundImage: "url('/section-bg-2.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <p className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black font-semibold text-white leading-tight">
+            Elegant Authority
+          </p>
+        </div>
+      </section>
 
       {/* Inspired by Core Brand Principles */}
       <section className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
@@ -457,31 +457,31 @@ export default function BrandFoundationPage() {
 
       {/* Brand DNA */}
       <section id="brand-dna" className="relative scroll-mt-24">
-  {/* Heading on white */}
-  <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
-    <span className="font-light">1.7.</span>&nbsp;&nbsp;Brand DNA
-  </h2>
+        {/* Heading on white */}
+        <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
+          <span className="font-light">1.7.</span>&nbsp;&nbsp;Brand DNA
+        </h2>
 
-  {/* Black bg image portion */}
-  <div
-  className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
-  style={{
-    backgroundImage: "url('/section-bg-2.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
->
-  <div className="w-fit">
-    <p className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black font-semibold text-white leading-tight">
-      The Soundhous Mix™
-    </p>
-    <p className="text-xl sm:text-2xl md:text-3xl font-light text-white/80 text-right mt-2">
-      What differentiates us
-    </p>
-  </div>
-</div>
-</section>
+        {/* Black bg image portion */}
+        <div
+          className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+          style={{
+            backgroundImage: "url('/section-bg-2.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          <div className="w-fit">
+            <p className="text-3xl sm:text-4xl md:text-5xl lg:text-[56px] font-black font-semibold text-white leading-tight">
+              The Soundhous Mix™
+            </p>
+            <p className="text-xl sm:text-2xl md:text-3xl font-light text-white/80 text-right mt-2">
+              What differentiates us
+            </p>
+          </div>
+        </div>
+      </section>
 
       {/* TEE Section */}
       <section id="tee" className="px-4 sm:px-6 md:px-8 lg:px-12 py-8 sm:py-12 md:py-16 scroll-mt-24">
@@ -505,11 +505,11 @@ export default function BrandFoundationPage() {
 
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-10 md:gap-12 items-center">
             <p className="text-gray-700 text-base sm:text-lg md:text-xl lg:text-2xl font-light leading-relaxed">
-              Our tagline is a powerful 
-               tool that helps people
-                recognise us. To keep it 
-                 effective, follow these 
-                  simple rules:
+              Our tagline is a powerful
+              tool that helps people
+              recognise us. To keep it
+              effective, follow these
+              simple rules:
             </p>
 
             <div className="relative flex justify-center items-center py-8 md:py-0">
@@ -570,7 +570,7 @@ export default function BrandFoundationPage() {
               {/* RIGHT - Link */}
               <div className="text-gray-900 text-sm sm:text-sm flex flex-col items-start space-y-1">
                 <span className="text-gray-900">See section</span>
-                <Link href="#logo-blueprint" className="text-blue-600 hover:text-blue-800 underline font-medium">
+                <Link href="brand-blueprint#co-branding" className="text-blue-600 hover:text-blue-800 underline font-medium">
                   Logo Blueprint Rules/Co-Branding
                 </Link>
                 <span className="text-gray-900">for more information</span>
@@ -663,34 +663,34 @@ export default function BrandFoundationPage() {
       {/* Brand Strategy */}
       <section id="brand-strategy" className="relative scroll-mt-24">
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-6">
-    <span className="font-light">1.10.</span>&nbsp;&nbsp;Brand Strategy
-  </h2>
-     <div
-  className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
-  style={{
-    backgroundImage: "url('/section-bg-2.png')",
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
->
-  {/* Top-left opening quote */}
-  <QuoteMark className="absolute top-8 left-6 sm:top-8 sm:left-10 md:left-16 w-16 sm:w-20 md:w-24 lg:w-28 text-gray-500 opacity-70" />
+          <span className="font-light">1.10.</span>&nbsp;&nbsp;Brand Strategy
+        </h2>
+        <div
+          className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+          style={{
+            backgroundImage: "url('/section-bg-2.png')",
+            backgroundSize: "cover",
+            backgroundPosition: "center",
+            backgroundRepeat: "no-repeat",
+          }}
+        >
+          {/* Top-left opening quote */}
+          <QuoteMark className="absolute top-8 left-6 sm:top-8 sm:left-10 md:left-16 w-16 sm:w-20 md:w-24 lg:w-28 text-gray-500 opacity-70" />
 
-  {/* Quote text */}
-  <p className="text-lg sm:text-4xl md:text-5xl lg:text-[50px] font-black text-white font-semibold leading-tight ml-16 sm:ml-20 md:ml-24 w-fit">
-    If you can't explain your <br />
-    brand strategy in one <br />
-    slide, then you don't have <br />
-    strategy, you have chaos.
-  </p>
+          {/* Quote text */}
+          <p className="text-lg sm:text-4xl md:text-5xl lg:text-[50px] font-black text-white font-semibold leading-tight ml-16 sm:ml-20 md:ml-24 w-fit">
+            If you can't explain your <br />
+            brand strategy in one <br />
+            slide, then you don't have <br />
+            strategy, you have chaos.
+          </p>
 
-  {/* Bottom-right closing quote */}
-  <QuoteMark className="absolute bottom-3 right-6 sm:bottom-8 sm:right-10 md:right-28 w-16 sm:w-20 md:w-24 lg:w-28 text-gray-500 opacity-70 rotate-180" />
-</div>
+          {/* Bottom-right closing quote */}
+          <QuoteMark className="absolute bottom-3 right-6 sm:bottom-8 sm:right-10 md:right-28 w-16 sm:w-20 md:w-24 lg:w-28 text-gray-500 opacity-70 rotate-180" />
+        </div>
 
 
-</section>
+      </section>
 
       {/* Brand Strategy Summary */}
       <section id="brand-strategy-summary" className="w-full bg-black px-6 md:px-12 py-16 md:py-24 text-white scroll-mt-24">
@@ -702,7 +702,7 @@ export default function BrandFoundationPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 text-left">
             <div className="space-y-6">
               <p className="font-light text-lg">Our Framework is divided into <br />
-              four primary quadrants:</p>
+                four primary quadrants:</p>
               <div>
                 <p className="font-bold">Story (The "Why"):</p>
                 <p className="font-light">

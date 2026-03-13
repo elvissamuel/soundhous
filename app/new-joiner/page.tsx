@@ -1,8 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import NewJoinerSidebar from "./NewJoinerSidebar";
-import { QuoteMark } from "../guide/components/Quotemark";
-import Sidebar from "../guide/components/Sidebar";
 
 export default function NewJoinerPage() {
   return (
@@ -14,7 +12,7 @@ export default function NewJoinerPage() {
             <section id="new-joiner" className="scroll-mt-24">
                     <div className="max-w-full mx-auto">
                       <Image
-                        src="/new-joiner/new-joiner.png"
+                        src="/new-joiner/new-joiner-guide.png"
                         alt="Brand Guideline"
                         width={1000}
                         height={1000}
@@ -450,7 +448,7 @@ export default function NewJoinerPage() {
                       alt="Horizontal Lockup"
                       className="w-56 sm:w-64 md:w-72 lg:w-80 h-auto mx-auto lg:ml-auto"
                     />
-                    <p className="mt-2 text-xs sm:text-sm text-black">
+                    <p className="mt-2 text-xs sm:text-sm text-center text-black">
                       Horizontal Lockup
                     </p>
                   </div>
@@ -508,7 +506,7 @@ export default function NewJoinerPage() {
                       alt="Vertical Lockup"
                       className="w-40 sm:w-44 md:w-52 h-auto mx-auto md:ml-auto"
                     />
-                    <p className="mt-2 text-xs sm:text-sm text-black">
+                    <p className="mt-2 text-xs sm:text-sm text-center text-black">
                       Vertical Lockup
                     </p>
                   </div>

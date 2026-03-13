@@ -189,7 +189,7 @@ export default function CommunicationsPage() {
                                     alt="Horizontal Lockup"
                                     className="w-56 sm:w-64 md:w-72 lg:w-80 h-auto mx-auto lg:ml-auto"
                                 />
-                                <p className="mt-2 text-xs sm:text-sm text-black">
+                                <p className="mt-2 text-xs sm:text-sm text-center text-black">
                                     Horizontal Lockup
                                 </p>
                             </div>
@@ -247,7 +247,7 @@ export default function CommunicationsPage() {
                                     alt="Vertical Lockup"
                                     className="w-40 sm:w-44 md:w-52 h-auto mx-auto md:ml-auto"
                                 />
-                                <p className="mt-2 text-xs sm:text-sm text-black">
+                                <p className="mt-2 text-xs sm:text-sm text-center text-black">
                                     Vertical Lockup
                                 </p>
                             </div>
@@ -805,7 +805,7 @@ export default function CommunicationsPage() {
                         </div>
                         <div className="w-full">
                             <Image
-                                src="/sensory-application-2.png"
+                                src="/sensory-application-clear.png"
                                 alt="AFROMIDI Design Styles"
                                 width={1200}
                                 height={1600}

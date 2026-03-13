@@ -51,7 +51,6 @@ const menuItems: MenuItem[] = [
     children: [
       { title: 'Brand Visual Language', href: '/guide/symphony#brand-visual' },
       { title: 'Color System', href: '/guide/symphony#color-system' },
-      { title: 'Brand Architecture', href: '/guide/symphony#brand-architecture' },
       
       
     ],

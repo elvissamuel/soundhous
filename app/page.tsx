@@ -35,33 +35,30 @@ export default function Home() {
 
   return (
     <div className="min-h-screen bg-white">
-      <header className="relative min-h-[330px] sm:min-h-[500px] md:min-h-[600px] overflow-hidden bg-black">
+      {/* Header Section */}
+      <header className="relative min-h-[330px] sm:min-h-[500px] md:min-h-[600px] overflow-hidden p-4 sm:p-8 md:p-12 lg:p-20 lg:pl-32">
+        {/* Hero Background Image - Covering entire header */}
+        <div className="absolute inset-0 w-full h-full">
+          <Image
+            src="/Soundhous_LogoReveal.gif"
+            alt="Person listening with headphones"
+            fill
+            className="object-cover object-top"
+            priority
+          />
+        </div>
 
-  {/* GIF — centered */}
-  <div className="absolute inset-0 flex items-center justify-center">
-    <Image
-      src="/Soundhous_LogoReveal.gif"
-      alt="Soundhous logo reveal"
-      width={600}
-      height={400}
-      className="object-contain w-[60%] sm:w-[50%] md:w-[45%] h-auto opacity-90"
-      priority
-    />
-  </div>
 
-  {/* Content Container */}
-  <div className="relative z-10 w-full max-w-7xl mx-auto text-center px-4 sm:px-6 md:px-8 lg:px-16 xl:px-4 py-8 sm:py-12 md:py-16 flex items-center justify-center h-full">
-    <div className="flex flex-col text-white max-w-2xl mt-16 sm:mt-20 md:mt-24">
-      <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-white leading-[1.1] transform translate-y-40 sm:translate-y-65 md:translate-y-80">
-        Welcome to the Soundhous Brand Portal
-      </h1>
-    </div>
-  </div>
 
-</header>
+      </header>
 
       {/* Content Section */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 md:px-8 lg:px-16 xl:px-24 py-8 sm:py-12 md:py-16 bg-white">
+
+        <h1 className="text-xl sm:text-2xl md:text-3xl font-bold text-black text-center mb-8 sm:mb-10 md:mb-12">
+          Welcome to the Soundhous Brand Portal
+        </h1>
+
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {cards.map((card, index) => (
             <Link
