@@ -293,7 +293,7 @@ export default function SensoryGuidePage() {
           {/* Tall Image Below */}
           <div className="w-full">
             <Image
-              src="/sensory-application-2.png"
+              src="/sensory-application-clear.png"
               alt="AFROMIDI Design Styles"
               width={1200}
               height={1600}

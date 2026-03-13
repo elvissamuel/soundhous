@@ -20,30 +20,30 @@ export default function SymphonyPage() {
           id="brand-visual"
           className="relative scroll-mt-24"
         >
-          
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
-              <span className="font-light">3.1.</span>&nbsp;&nbsp;Brand Visual Language & Identity System
-            </h2>
 
-             <div
-              className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
-              style={{
-                backgroundImage: "url('/section-bg-2.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-            
-              <p className="text-base sm:text-4xl md:text-5xl lg:text-[38px] font-black text-white font-semibold leading-tight ml-0 sm:ml-20 md:ml-16 w-fit">
-                We build with intention. Our identity 
-                system provides the framework that
-                turns our abstract philosophy into a 
-                tangible, recognisable reality.
-              </p>
-            
-            </div>
-          
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
+            <span className="font-light">3.1.</span>&nbsp;&nbsp;Brand Visual Language & Identity System
+          </h2>
+
+          <div
+            className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+            style={{
+              backgroundImage: "url('/section-bg-2.png')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+
+            <p className="text-base sm:text-4xl md:text-5xl lg:text-[38px] font-black text-white font-semibold leading-tight ml-0 sm:ml-20 md:ml-16 w-fit">
+              We build with intention. Our identity
+              system provides the framework that
+              turns our abstract philosophy into a
+              tangible, recognisable reality.
+            </p>
+
+          </div>
+
         </section>
 
         <section
@@ -106,84 +106,99 @@ export default function SymphonyPage() {
 
         <section className="w-full bg-gray-100 px-6 md:px-12 py-16 md:py-24">
           <div className="max-w-6xl mx-auto space-y-12">
-            {/* Grid of 4 Images (2x2) */}
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 items-center">
+
               {/* IMAGE 1 */}
-              <div className="flex justify-center">
-                <Image
-                  src="/thehous.png"
-                  alt="Illustration example 1"
-                  width={300}
-                  height={300}
-                  className="w-full max-w-xs h-auto object-contain"
-                />
+              <div className="flex flex-col">
+                <div className="flex justify-center">
+                  <Image
+                    src="/thehous.png"
+                    alt="Illustration example 1"
+                    width={300}
+                    height={300}
+                    className="w-full max-w-xs h-auto object-contain"
+                  />
+                </div>
+                <div className="flex justify-between mt-2 ">
+                  <p className="text-xs text-black w-1/2 text-center">The Hous</p>
+                  <p className="text-xs text-black w-1/2 text-center">The Dot</p>
+                </div>
               </div>
 
               {/* IMAGE 2 */}
-              <div className="flex justify-center">
-                <Image
-                  src="/wavyline.png"
-                  alt="Illustration example 2"
-                  width={300}
-                  height={300}
-                  className="w-full max-w-xs h-auto object-contain"
-                />
+              <div className="flex flex-col">
+                <div className="flex justify-center">
+                  <Image
+                    src="/wavyline.png"
+                    alt="Illustration example 2"
+                    width={300}
+                    height={300}
+                    className="w-full max-w-xs h-auto object-contain"
+                  />
+                </div>
+                <p className="text-xs text-black text-center mt-2">Wavy Lines Variant (1)</p>
               </div>
 
               {/* IMAGE 3 */}
-              <div className="flex justify-center">
-                <Image
-                  src="/s-wave.png"
-                  alt="Illustration example 3"
-                  width={300}
-                  height={300}
-                  className="w-full max-w-xs h-auto object-contain"
-                />
+              <div className="flex flex-col">
+                <div className="flex justify-center">
+                  <Image
+                    src="/s-wave.png"
+                    alt="Illustration example 3"
+                    width={300}
+                    height={300}
+                    className="w-full max-w-xs h-auto object-contain"
+                  />
+                </div>
+                <p className="text-xs text-black text-center mt-2">The S-Wave</p>
               </div>
 
               {/* IMAGE 4 */}
-              <div className="flex justify-center">
-                <Image
-                  src="/wavyline-2.png"
-                  alt="Illustration example 4"
-                  width={300}
-                  height={300}
-                  className="w-full max-w-xs h-auto object-contain"
-                />
+              <div className="flex flex-col">
+                <div className="flex justify-center">
+                  <Image
+                    src="/wavyline-2.png"
+                    alt="Illustration example 4"
+                    width={300}
+                    height={300}
+                    className="w-full max-w-xs h-auto object-contain"
+                  />
+                </div>
+                <p className="text-xs text-black text-center mt-2">Wavy Lines Variant (2)</p>
               </div>
+
             </div>
           </div>
         </section>
-
         <section
           id="color-system"
           className="relative scroll-mt-24"
         >
-          
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
-              <span className="font-light">3.2.</span>&nbsp;&nbsp;Color System
-            </h2>
-           <div
-              className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
-              style={{
-                backgroundImage: "url('/section-bg-2.png')",
-                backgroundSize: "cover",
-                backgroundPosition: "center",
-                backgroundRepeat: "no-repeat",
-              }}
-            >
-            
-              <p className="text-base sm:text-4xl md:text-5xl lg:text-[38px] font-black text-white font-semibold leading-tight ml-0 sm:ml-20 md:ml-16 w-fit">
-               Colours are used to bridge the gap
-                between what you are and how you want
-                to be felt. They act as a navigational guide, 
-                telling the human eye where to look, what
-                to trust, and when to take action.
-              </p>
-            
-            </div>
-            
-          
+
+          <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold text-black px-6 sm:px-10 md:px-16 py-14">
+            <span className="font-light">3.2.</span>&nbsp;&nbsp;Color System
+          </h2>
+          <div
+            className="relative bg-black flex flex-col justify-center px-6 sm:px-10 md:px-16 min-h-[200px] sm:min-h-[380px] md:min-h-[470px]"
+            style={{
+              backgroundImage: "url('/section-bg-2.png')",
+              backgroundSize: "cover",
+              backgroundPosition: "center",
+              backgroundRepeat: "no-repeat",
+            }}
+          >
+
+            <p className="text-base sm:text-4xl md:text-5xl lg:text-[38px] font-black text-white font-semibold leading-tight ml-0 sm:ml-20 md:ml-16 w-fit">
+              Colours are used to bridge the gap
+              between what you are and how you want
+              to be felt. They act as a navigational guide,
+              telling the human eye where to look, what
+              to trust, and when to take action.
+            </p>
+
+          </div>
+
+
         </section>
 
         <section id="primary-colours" className="w-full bg-white px-4 sm:px-6 md:px-8 lg:px-12 py-12 sm:py-16 md:py-20 lg:py-24">
@@ -192,7 +207,7 @@ export default function SymphonyPage() {
             <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-black">
               <span className="font-light">3.2.1.</span>&nbsp;&nbsp;Primary Colours
             </h2>
-            
+
             {/* Intro Paragraph */}
             <p className="text-gray-700 leading-relaxed text-sm sm:text-sm text-gray-900 md:text-lg">
               Soundhous operates in the space between light and shadow. Our strict Black &amp;
@@ -200,7 +215,7 @@ export default function SymphonyPage() {
               sonic energy. By stripping away colour, we lean into high-contrast visuals and tactile
               textures that define the Soundhous aesthetic: bold, timeless, and unapologetic.
             </p>
-            
+
             {/* Colour Blocks */}
             <div className="space-y-8 sm:space-y-10 md:space-y-12">
               {/* Soundhous Black */}
@@ -209,9 +224,9 @@ export default function SymphonyPage() {
                 <div className="max-w-xl space-y-3">
                   <p className=" text-base sm:text-lg text-black">
                     <span className="text-black font-semibold">Soundhous Black (#0A0A0A):</span> A "deep-space" black. Use this for backgrounds to create a sense of depth, raw emotion and acoustic resonance.</p>
-                  
+
                 </div>
-                
+
                 {/* Right Swatch + Values */}
                 <div className="flex flex-col items-center space-y-2 shrink-0">
                   <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full" style={{ backgroundColor: "#0A0A0A" }}></div>
@@ -222,18 +237,18 @@ export default function SymphonyPage() {
                   </div>
                 </div>
               </div>
-              
+
               <hr className="border-gray-300" />
-              
+
               {/* Soundhous White */}
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 md:gap-8">
                 {/* Left Text */}
                 <div className="max-w-xl space-y-3">
                   <p className="text-black text-base sm:text-lg">
                     <span className="text-black font-semibold">Soundhous White (#F5F5F5):</span> An "off-white" or "paper" white. It feels more premium and architectural than a piercing digital white.</p>
-                  
+
                 </div>
-                
+
                 {/* Right Swatch + Values */}
                 <div className="flex flex-col items-center space-y-2 shrink-0">
                   <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full border border-gray-300" style={{ backgroundColor: "#F5F5F5" }}></div>
@@ -244,18 +259,18 @@ export default function SymphonyPage() {
                   </div>
                 </div>
               </div>
-              
+
               <hr className="border-gray-300" />
-              
+
               {/* Signal Grey */}
               <div className="flex flex-col md:flex-row md:justify-between md:items-start gap-6 md:gap-8">
                 {/* Left Text */}
                 <div className="max-w-xl space-y-3">
                   <p className="text-black text-base sm:text-lg">
                     <span className="text-black font-semibold">Signal Grey (#808080):</span> Used for soft contrast and sparingly for secondary information (metadata, labels, or grid lines).</p>
-                  
+
                 </div>
-                
+
                 {/* Right Swatch + Values */}
                 <div className="flex flex-col items-center space-y-2 shrink-0">
                   <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-full" style={{ backgroundColor: "#808080" }}></div>
@@ -281,7 +296,7 @@ export default function SymphonyPage() {
             <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-12">
               {/* Scandi Beige */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-black"
                   style={{ backgroundColor: "#E0C389" }}
                 >
@@ -296,7 +311,7 @@ export default function SymphonyPage() {
 
               {/* Sonic Amber */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-black"
                   style={{ backgroundColor: "#F2C233" }}
                 >
@@ -311,7 +326,7 @@ export default function SymphonyPage() {
 
               {/* Light Grey */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-black border border-gray-300"
                   style={{ backgroundColor: "#E8E7E4" }}
                 >
@@ -326,7 +341,7 @@ export default function SymphonyPage() {
 
               {/* Champagne */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-black border border-gray-300"
                   style={{ backgroundColor: "#F2E5D2" }}
                 >
@@ -341,7 +356,7 @@ export default function SymphonyPage() {
 
               {/* Deep Bronze */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-white"
                   style={{ backgroundColor: "#784005" }}
                 >
@@ -356,7 +371,7 @@ export default function SymphonyPage() {
 
               {/* Midnight Blue */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-white"
                   style={{ backgroundColor: "#032349" }}
                 >
@@ -371,7 +386,7 @@ export default function SymphonyPage() {
 
               {/* White Blush */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-black border border-gray-300"
                   style={{ backgroundColor: "#FAFBED" }}
                 >
@@ -386,7 +401,7 @@ export default function SymphonyPage() {
 
               {/* Warm Taupe */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-white"
                   style={{ backgroundColor: "#978777" }}
                 >
@@ -401,7 +416,7 @@ export default function SymphonyPage() {
 
               {/* Dark Charcoal */}
               <div className="flex items-center justify-between">
-                <div 
+                <div
                   className="w-24 h-24 rounded-full flex items-center justify-center text-center text-xs font-semibold text-white"
                   style={{ backgroundColor: "#272D39" }}
                 >
@@ -417,44 +432,7 @@ export default function SymphonyPage() {
           </div>
         </section>
 
-        <section id="brand-architecture" className="w-full bg-white px-6 md:px-12 py-16 md:py-24">
-          <div className="max-w-6xl mx-auto space-y-12">
-            {/* Title */}
-            <h2 className="text-2xl md:text-4xl font-bold text-black">
-              <span className="font-light">3.3.</span>&nbsp;&nbsp;Brand Architecture
-            </h2>
 
-            {/* 2 Column Layout */}
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-start">
-              {/* LEFT SIDE TEXT */}
-              <div className="space-y-4 text-gray-700 leading-relaxed">
-                <p className="text-lg text-black font-light">
-                  Brand architecture is the structural system that organises a company's brands,
-                  sub-brands, products, and services to show how they relate to one another.
-                </p>
-              </div>
-
-              {/* RIGHT SIDE TEXT */}
-              <div className="space-y-4 text-gray-700 leading-relaxed">
-                <p>
-                  <strong className="text-black">Branded House:</strong> In this case, a single "Master Brand" is applied to everything. 
-                  This creates maximum consistency and builds equity in one name.
-                </p>
-              </div>
-            </div>
-
-            {/* Large Image Beneath Both Columns */}
-            <div className="flex justify-center mt-12">
-              <Image
-                src="/brand-architecture.png"
-                alt="Soundhaus brand architecture diagram"
-                width={900}
-                height={600}
-                className="w-full max-w-4xl h-auto object-contain"
-              />
-            </div>
-          </div>
-        </section>
       </div>
     </div>
   );

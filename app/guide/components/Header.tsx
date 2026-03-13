@@ -8,12 +8,13 @@ const pageTitles: Record<string, string> = {
   '/guide/brand-strategy': 'Brand Strategy',
   '/guide/brand-foundation': 'Brand Foundation',
   '/guide/brand-blueprint': 'Brand Blueprint',
+  '/guide/symphony': 'Symphony',
   '/guide/typography': 'Typography',
   '/guide/sensory-guide': 'Sensory Guide',
+  '/guide/spaces-and-places': 'Spaces and Places',
   '/guide/photography': 'Photography',
-  '/guide/other-brand-assets': 'Other Brand Asset',
+  '/guide/global-adaptation': 'Global Adaptation',
   '/guide/application-samples': 'Application Samples',
-    "/quick-reference": "Quick Reference Guide",
 
 };
 
